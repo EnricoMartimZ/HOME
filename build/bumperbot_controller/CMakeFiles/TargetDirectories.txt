@@ -1,0 +1,11 @@
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/uninstall.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/bumperbot_controller_uninstall.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_symlink_bumperbot_controller.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/test.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/edit_cache.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/rebuild_cache.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/list_install_components.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/install.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/install/local.dir
+/home/emzx/ros2_ws/build/bumperbot_controller/CMakeFiles/install/strip.dir

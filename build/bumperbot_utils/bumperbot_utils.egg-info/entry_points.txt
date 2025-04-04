@@ -1,0 +1,4 @@
+[console_scripts]
+desenho_trajetoria = bumperbot_utils.simple_trajectory:main
+parada_segura = bumperbot_utils.safety_stop:main
+scan_republish = bumperbot_utils.scan_republish:main

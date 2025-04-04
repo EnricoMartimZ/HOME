@@ -1,0 +1,69 @@
+[0.020s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_controller -- -j8 -l8
+[0.050s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.340s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.341s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.380s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.391s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.458s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.497s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.625s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.731s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.732s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.732s] -- Added test 'lint_cmake' to check CMake code style
+[0.733s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.734s] -- Added test 'xmllint' to check XML markup files
+[0.735s] -- Configuring done (0.7s)
+[0.742s] -- Generating done (0.0s)
+[0.744s] -- Build files have been written to: /home/emzx/ros2_ws/build/bumperbot_controller
+[0.788s] Built target ament_cmake_python_copy_bumperbot_controller
+[1.023s] running egg_info
+[1.044s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.044s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.045s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.109s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.109s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.139s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.150s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_controller -- -j8 -l8
+[1.151s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/bumperbot_controller
+[1.159s] -- Install configuration: ""
+[1.160s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.160s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.160s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[1.160s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.160s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[1.160s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.160s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[1.161s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[1.161s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[1.161s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[1.220s] Listing '/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[1.220s] Compiling '/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py'...
+[1.228s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.228s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.228s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/teleop_keyboard_config.yaml
+[1.228s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/gz_bridge.yaml
+[1.228s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[1.229s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[1.229s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.229s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/keyboard_teleop.launch.py
+[1.229s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.229s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[1.229s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[1.229s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.230s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.231s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.231s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.231s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.231s] -- Up-to-date: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.231s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.233s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/bumperbot_controller

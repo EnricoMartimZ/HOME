@@ -1,0 +1,65 @@
+[0.060s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_localization -- -j8 -l8
+[0.772s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.861s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.885s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.886s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.976s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.010s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.751s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.921s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.922s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.923s] -- Added test 'lint_cmake' to check CMake code style
+[1.924s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.928s] -- Added test 'xmllint' to check XML markup files
+[1.932s] -- Configuring done (1.8s)
+[1.946s] -- Generating done (0.0s)
+[1.955s] -- Build files have been written to: /home/emzx/ros2_ws/build/bumperbot_localization
+[2.057s] Built target ament_cmake_python_symlink_bumperbot_localization
+[2.829s] running egg_info
+[2.884s] writing bumperbot_localization.egg-info/PKG-INFO
+[2.884s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[2.884s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[3.039s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[3.040s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[3.100s] Built target ament_cmake_python_build_bumperbot_localization_egg
+[3.160s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_localization -- -j8 -l8
+[3.163s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/bumperbot_localization
+[3.184s] -- Install configuration: ""
+[3.186s] -- Execute custom install script
+[3.186s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[3.186s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[3.188s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[3.189s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.190s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.190s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[3.190s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[3.191s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[3.191s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[3.191s] -- Symlinking: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[3.210s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/rascunho.txt
+[3.210s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[3.210s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[3.211s] -- Symlinking: /home/emzx/ros2_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[3.231s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[3.232s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[3.233s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[3.233s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[3.233s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[3.234s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[3.234s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[3.235s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[3.235s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[3.236s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[3.236s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[3.237s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[3.238s] -- Symlinking: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[3.260s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[3.260s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[3.261s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[3.261s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[3.384s] Listing '/home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[3.384s] Compiling '/home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py'...
+[3.403s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/bumperbot_localization

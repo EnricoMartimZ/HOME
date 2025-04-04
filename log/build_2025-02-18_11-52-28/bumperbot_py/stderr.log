@@ -1,0 +1,5 @@
+  File "/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py/simple_tf_kinematics.py", line 46
+    self.get_transform_srv_ = self.create_service(GetTransform, "get_transform" self.getTransformCallback)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

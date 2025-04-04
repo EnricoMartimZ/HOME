@@ -1,0 +1,1 @@
+/home/emzx/ros2_ws/build/bumperbot_mapping/ament_cmake_core/bumperbot_mappingConfig.cmake

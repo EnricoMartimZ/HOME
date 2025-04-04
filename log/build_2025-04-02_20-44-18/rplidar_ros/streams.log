@@ -1,0 +1,78 @@
+[0.010s] Invoking command in '/home/emzx/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/rplidar_ros -- -j8 -l8
+[0.060s] [  5%] Built target rplidar_client
+[0.065s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[0.065s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[1.898s] In file included from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[1.898s]                  from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[1.898s]                  from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[1.898s]                  from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[1.898s] [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.898s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[1.898s]       |                [01;35m[K^[m[K
+[1.898s] [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.898s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.899s]       |                    [01;35m[K^[m[K
+[1.915s] In file included from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[1.916s]                  from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[1.916s]                  from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[1.916s]                  from [01m[K/home/emzx/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[1.916s] [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.916s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[1.916s]       |                [01;35m[K^[m[K
+[1.916s] [01m[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.916s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[1.916s]       |                    [01;35m[K^[m[K
+[4.620s] [ 13%] [32m[1mLinking CXX executable rplidar_node[0m
+[4.628s] [ 15%] [32m[1mLinking CXX executable rplidar_composition[0m
+[4.814s] [ 57%] Built target rplidar_node
+[4.822s] [100%] Built target rplidar_composition
+[4.832s] Invoked command in '/home/emzx/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/rplidar_ros -- -j8 -l8
+[4.840s] Invoking command in '/home/emzx/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/rplidar_ros
+[4.847s] -- Install configuration: ""
+[4.847s] -- Execute custom install script
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[4.848s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[4.849s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[4.850s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[4.850s] -- Symlinking: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[4.858s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[4.858s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.858s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.858s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[4.858s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[4.858s] -- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[4.861s] Invoked command in '/home/emzx/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/rplidar_ros

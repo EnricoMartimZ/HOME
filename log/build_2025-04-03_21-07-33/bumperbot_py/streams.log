@@ -1,0 +1,30 @@
+[3.048s] Invoking command in '/home/emzx/ros2_ws/src/bumperbot_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py build --build-base /home/emzx/ros2_ws/build/bumperbot_py/build install --record /home/emzx/ros2_ws/build/bumperbot_py/install.log --single-version-externally-managed install_data
+[3.679s] running egg_info
+[3.729s] writing ../../build/bumperbot_py/bumperbot_py.egg-info/PKG-INFO
+[3.730s] writing dependency_links to ../../build/bumperbot_py/bumperbot_py.egg-info/dependency_links.txt
+[3.730s] writing entry points to ../../build/bumperbot_py/bumperbot_py.egg-info/entry_points.txt
+[3.731s] writing requirements to ../../build/bumperbot_py/bumperbot_py.egg-info/requires.txt
+[3.731s] writing top-level names to ../../build/bumperbot_py/bumperbot_py.egg-info/top_level.txt
+[3.822s] reading manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[3.824s] writing manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[3.824s] running build
+[3.824s] running build_py
+[3.825s] running install
+[3.840s] running install_lib
+[3.889s] running install_data
+[3.889s] running install_egg_info
+[3.937s] removing '/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info' (and everything under it)
+[3.938s] Copying ../../build/bumperbot_py/bumperbot_py.egg-info to /home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info
+[3.940s] running install_scripts
+[4.254s] Installing keyboard_controller script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.255s] Installing simple_action_client script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.255s] Installing simple_action_server script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.255s] Installing simple_lifecycle_node script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.255s] Installing simple_parameter script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.256s] Installing simple_qos_publisher script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.256s] Installing simple_qos_subscriber script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.256s] Installing simple_tf_kinematics script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.257s] Installing simple_turtlesim_kinematics script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.257s] Installing twist_converter script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+[4.258s] writing list of installed files to '/home/emzx/ros2_ws/build/bumperbot_py/install.log'
+[4.323s] Invoked command in '/home/emzx/ros2_ws/src/bumperbot_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py build --build-base /home/emzx/ros2_ws/build/bumperbot_py/build install --record /home/emzx/ros2_ws/build/bumperbot_py/install.log --single-version-externally-managed install_data

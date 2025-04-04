@@ -1,0 +1,2 @@
+Invoking command in '/home/emzx/ros2_ws/build/bumperbot_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_localization -- -j8 -l8
+Invoked command in '/home/emzx/ros2_ws/build/bumperbot_localization' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_localization -- -j8 -l8

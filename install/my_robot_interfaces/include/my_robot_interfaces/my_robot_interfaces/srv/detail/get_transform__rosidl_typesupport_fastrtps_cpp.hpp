@@ -1,0 +1,1 @@
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp

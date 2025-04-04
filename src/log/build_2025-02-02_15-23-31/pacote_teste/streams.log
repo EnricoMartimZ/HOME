@@ -1,0 +1,21 @@
+[0.795s] Invoking command in '/home/emzx/ros2_ws/src/pacote_teste': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/src/build/pacote_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pacote_teste build --build-base /home/emzx/ros2_ws/src/build/pacote_teste/build install --record /home/emzx/ros2_ws/src/build/pacote_teste/install.log --single-version-externally-managed install_data
+[1.067s] running egg_info
+[1.084s] writing ../build/pacote_teste/pacote_teste.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../build/pacote_teste/pacote_teste.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../build/pacote_teste/pacote_teste.egg-info/entry_points.txt
+[1.085s] writing requirements to ../build/pacote_teste/pacote_teste.egg-info/requires.txt
+[1.085s] writing top-level names to ../build/pacote_teste/pacote_teste.egg-info/top_level.txt
+[1.122s] reading manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[1.122s] writing manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[1.122s] running build
+[1.123s] running build_py
+[1.123s] running install
+[1.129s] running install_lib
+[1.148s] running install_data
+[1.148s] running install_egg_info
+[1.167s] removing '/home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste-0.0.0-py3.12.egg-info' (and everything under it)
+[1.168s] Copying ../build/pacote_teste/pacote_teste.egg-info to /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste-0.0.0-py3.12.egg-info
+[1.168s] running install_scripts
+[1.291s] Installing py_node script to /home/emzx/ros2_ws/src/install/pacote_teste/lib/pacote_teste
+[1.291s] writing list of installed files to '/home/emzx/ros2_ws/src/build/pacote_teste/install.log'
+[1.319s] Invoked command in '/home/emzx/ros2_ws/src/pacote_teste' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/src/build/pacote_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pacote_teste build --build-base /home/emzx/ros2_ws/src/build/pacote_teste/build install --record /home/emzx/ros2_ws/src/build/pacote_teste/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/Fibonacci.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl
+/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/GetTransform.idl

@@ -1,0 +1,22 @@
+[1.403s] Invoking command in '/home/emzx/ros2_ws/src/bumperbot_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_utils build --build-base /home/emzx/ros2_ws/build/bumperbot_utils/build install --record /home/emzx/ros2_ws/build/bumperbot_utils/install.log --single-version-externally-managed install_data
+[1.706s] running egg_info
+[1.727s] writing ../../build/bumperbot_utils/bumperbot_utils.egg-info/PKG-INFO
+[1.727s] writing dependency_links to ../../build/bumperbot_utils/bumperbot_utils.egg-info/dependency_links.txt
+[1.727s] writing entry points to ../../build/bumperbot_utils/bumperbot_utils.egg-info/entry_points.txt
+[1.728s] writing requirements to ../../build/bumperbot_utils/bumperbot_utils.egg-info/requires.txt
+[1.728s] writing top-level names to ../../build/bumperbot_utils/bumperbot_utils.egg-info/top_level.txt
+[1.770s] reading manifest file '../../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[1.771s] writing manifest file '../../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[1.771s] running build
+[1.771s] running build_py
+[1.771s] running install
+[1.778s] running install_lib
+[1.799s] running install_data
+[1.800s] running install_egg_info
+[1.821s] removing '/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info' (and everything under it)
+[1.822s] Copying ../../build/bumperbot_utils/bumperbot_utils.egg-info to /home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[1.823s] running install_scripts
+[1.957s] Installing desenho_trajetoria script to /home/emzx/ros2_ws/install/bumperbot_utils/lib/bumperbot_utils
+[1.958s] Installing parada_segura script to /home/emzx/ros2_ws/install/bumperbot_utils/lib/bumperbot_utils
+[1.958s] writing list of installed files to '/home/emzx/ros2_ws/build/bumperbot_utils/install.log'
+[2.004s] Invoked command in '/home/emzx/ros2_ws/src/bumperbot_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_utils build --build-base /home/emzx/ros2_ws/build/bumperbot_utils/build install --record /home/emzx/ros2_ws/build/bumperbot_utils/install.log --single-version-externally-managed install_data

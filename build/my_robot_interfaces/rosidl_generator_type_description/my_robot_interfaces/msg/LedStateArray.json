@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/msg/LedStateArray",
+      "fields": [
+        {
+          "name": "led_states",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/msg/LedStateArray",
+      "hash_string": "RIHS01_780298ed879439b21aff5b2052692c12068f741cb12224960c90be807960dc08"
+    }
+  ]
+}

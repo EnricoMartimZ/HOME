@@ -1,0 +1,12 @@
+twist_mux:
+  ros__parameters:
+    use_stamped: false
+    topics:
+      keyboard:
+        topic: /input_joy/cmd_vel
+        timeout: 0.5
+        priority: 99
+      joystick:
+        topic: joy_vel
+        timeout: 0.5
+        priority: 90

@@ -1,0 +1,1 @@
+/home/emzx/ros2_ws/build/bumperbot_bringup/ament_cmake_core/bumperbot_bringupConfig-version.cmake

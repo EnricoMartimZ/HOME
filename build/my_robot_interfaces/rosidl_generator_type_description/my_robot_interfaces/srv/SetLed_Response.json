@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/srv/SetLed_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/srv/SetLed_Response",
+      "hash_string": "RIHS01_9aa13ac4971f7e93872aa374bdcb528bfa0d7c1b9e1ba3af14142f4cf7aded7b"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/emzx/ros2_ws/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/emzx/ros2_ws/install/bumperbot_bringup
+[0.428s] -- The C compiler identification is GNU 13.3.0
+[0.429s] -- The CXX compiler identification is GNU 13.3.0
+[0.429s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.465s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.576s] -- Detecting CXX compile features
+[0.577s] -- Detecting CXX compile features - done
+[0.583s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.765s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.979s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.109s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.109s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.110s] -- Added test 'lint_cmake' to check CMake code style
+[1.111s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.112s] -- Added test 'xmllint' to check XML markup files
+[1.114s] -- Configuring done (1.1s)
+[1.117s] -- Generating done (0.0s)
+[1.118s] -- Build files have been written to: /home/emzx/ros2_ws/build/bumperbot_bringup
+[1.448s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/emzx/ros2_ws/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/emzx/ros2_ws/install/bumperbot_bringup
+[1.449s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_bringup -- -j8 -l8
+[1.502s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_bringup -- -j8 -l8
+[1.504s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/bumperbot_bringup
+[1.516s] -- Install configuration: ""
+[1.516s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup
+[1.516s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/ament_index/resource_index/parent_prefix_path/bumperbot_bringup
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.sh
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.dsv
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.sh
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.dsv
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.bash
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.sh
+[1.517s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.zsh
+[1.518s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.dsv
+[1.518s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv
+[1.518s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/ament_index/resource_index/packages/bumperbot_bringup
+[1.518s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig.cmake
+[1.518s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig-version.cmake
+[1.518s] -- Installing: /home/emzx/ros2_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.xml
+[1.521s] Invoked command in '/home/emzx/ros2_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/emzx/ros2_ws/build/bumperbot_bringup

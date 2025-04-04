@@ -1,0 +1,23 @@
+{
+    "cmake.ignoreCMakeListsMissing": true,
+    "python.autoComplete.extraPaths": [
+        "/home/emzx/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/emzx/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

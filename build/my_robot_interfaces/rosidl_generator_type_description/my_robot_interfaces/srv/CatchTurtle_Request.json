@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/srv/CatchTurtle_Request",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/srv/CatchTurtle_Request",
+      "hash_string": "RIHS01_09d293fe14238bcc83a19e3d2b9db1f18bb70324873be21a51fcc39ac81bbc21"
+    }
+  ]
+}

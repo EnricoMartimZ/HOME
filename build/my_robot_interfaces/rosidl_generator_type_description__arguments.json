@@ -1,0 +1,23 @@
+{
+  "package_name": "my_robot_interfaces",
+  "output_dir": "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces",
+  "idl_tuples": [
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/Fibonacci.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl",
+    "/home/emzx/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/GetTransform.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

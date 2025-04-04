@@ -1,0 +1,2 @@
+[console_scripts]
+py_node = pacote_teste.test:main

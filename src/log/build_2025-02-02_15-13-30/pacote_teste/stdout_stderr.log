@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/pacote_teste/pacote_teste.egg-info
+writing ../build/pacote_teste/pacote_teste.egg-info/PKG-INFO
+writing dependency_links to ../build/pacote_teste/pacote_teste.egg-info/dependency_links.txt
+writing entry points to ../build/pacote_teste/pacote_teste.egg-info/entry_points.txt
+writing requirements to ../build/pacote_teste/pacote_teste.egg-info/requires.txt
+writing top-level names to ../build/pacote_teste/pacote_teste.egg-info/top_level.txt
+writing manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+reading manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+writing manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/emzx/ros2_ws/src/build/pacote_teste/build
+creating /home/emzx/ros2_ws/src/build/pacote_teste/build/lib
+creating /home/emzx/ros2_ws/src/build/pacote_teste/build/lib/pacote_teste
+copying pacote_teste/test.py -> /home/emzx/ros2_ws/src/build/pacote_teste/build/lib/pacote_teste
+copying pacote_teste/__init__.py -> /home/emzx/ros2_ws/src/build/pacote_teste/build/lib/pacote_teste
+running install
+running install_lib
+creating /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+copying /home/emzx/ros2_ws/src/build/pacote_teste/build/lib/pacote_teste/test.py -> /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+copying /home/emzx/ros2_ws/src/build/pacote_teste/build/lib/pacote_teste/__init__.py -> /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+byte-compiling /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/test.py to test.cpython-312.pyc
+byte-compiling /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/emzx/ros2_ws/src/install/pacote_teste/share/ament_index
+creating /home/emzx/ros2_ws/src/install/pacote_teste/share/ament_index/resource_index
+creating /home/emzx/ros2_ws/src/install/pacote_teste/share/ament_index/resource_index/packages
+copying resource/pacote_teste -> /home/emzx/ros2_ws/src/install/pacote_teste/share/ament_index/resource_index/packages
+copying package.xml -> /home/emzx/ros2_ws/src/install/pacote_teste/share/pacote_teste
+running install_egg_info
+Copying ../build/pacote_teste/pacote_teste.egg-info to /home/emzx/ros2_ws/src/install/pacote_teste/lib/python3.12/site-packages/pacote_teste-0.0.0-py3.12.egg-info
+running install_scripts
+Installing py_node script to /home/emzx/ros2_ws/src/install/pacote_teste/lib/pacote_teste
+writing list of installed files to '/home/emzx/ros2_ws/src/build/pacote_teste/install.log'

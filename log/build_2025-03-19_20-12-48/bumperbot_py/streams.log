@@ -1,0 +1,18 @@
+[1.467s] Invoking command in '/home/emzx/ros2_ws/src/bumperbot_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py build --build-base /home/emzx/ros2_ws/build/bumperbot_py/build install --record /home/emzx/ros2_ws/build/bumperbot_py/install.log --single-version-externally-managed install_data
+[1.764s] running egg_info
+[1.785s] writing ../../build/bumperbot_py/bumperbot_py.egg-info/PKG-INFO
+[1.785s] writing dependency_links to ../../build/bumperbot_py/bumperbot_py.egg-info/dependency_links.txt
+[1.786s] writing entry points to ../../build/bumperbot_py/bumperbot_py.egg-info/entry_points.txt
+[1.786s] writing requirements to ../../build/bumperbot_py/bumperbot_py.egg-info/requires.txt
+[1.786s] writing top-level names to ../../build/bumperbot_py/bumperbot_py.egg-info/top_level.txt
+[1.831s] reading manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[1.832s] writing manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[1.832s] running build
+[1.832s] running build_py
+[1.833s] running install
+[1.842s] running install_lib
+[1.867s] running install_data
+[1.867s] running install_egg_info
+[1.891s] removing '/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.891s] Copying ../../build/bumperbot_py/bumperbot_py.egg-info to /home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info
+[1.891s] running install_scripts

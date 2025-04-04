@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000782] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.001189] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.001230] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.001257] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.001282] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.001306] (-) JobUnselected: {'identifier': 'bumperbot_py'}
+[0.001329] (-) JobUnselected: {'identifier': 'bumperbot_utils'}
+[0.001352] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001392] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001495] (-) JobUnselected: {'identifier': 'pacote_teste'}
+[0.001533] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.001575] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001619] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.019733] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.020714] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.021892] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emzx/ros2_ws/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/emzx/ros2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'emzx', 'LC_TIME': 'pt_BR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/emzx/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/emzx', 'OLDPWD': '/home/emzx/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '2049', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2481', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4050', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/emzx/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'emzx', 'JOURNAL_STREAM': '9:22646', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'emzx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/m4:@/tmp/.ICE-unix/2286,unix/m4:/tmp/.ICE-unix/2286', 'INVOCATION_ID': '724e75c6e8a84228965e008e4b49ce44', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U0N132', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/emzx/ros2_ws/install/rplidar_ros:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/my_robot_bringup:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/my_robot_interfaces:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/home/emzx/ros2_ws/install/bumperbot_mapping:/home/emzx/ros2_ws/install/bumperbot_localization:/home/emzx/ros2_ws/install/bumperbot_description:/home/emzx/ros2_ws/install/bumperbot_controller:/home/emzx/ros2_ws/install/bumperbot_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b97dba02-415a-4733-b2ee-0a376734cbaf', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/emzx/ros2_ws/build/rplidar_ros', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/emzx/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/emzx/ros2_ws/install/rplidar_ros:/home/emzx/ros2_ws/install/my_robot_bringup:/home/emzx/ros2_ws/install/my_robot_interfaces:/home/emzx/ros2_ws/install/bumperbot_mapping:/home/emzx/ros2_ws/install/bumperbot_localization:/home/emzx/ros2_ws/install/bumperbot_description:/home/emzx/ros2_ws/install/bumperbot_controller:/home/emzx/ros2_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy'}), 'shell': False}
+[0.099623] (-) TimerEvent: {}
+[0.135664] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.147227] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[0.151420] (rplidar_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[0.199725] (-) TimerEvent: {}
+[0.300075] (-) TimerEvent: {}
+[0.400455] (-) TimerEvent: {}
+[0.500819] (-) TimerEvent: {}
+[0.601246] (-) TimerEvent: {}
+[0.701670] (-) TimerEvent: {}
+[0.802027] (-) TimerEvent: {}
+[0.902379] (-) TimerEvent: {}
+[1.002735] (-) TimerEvent: {}
+[1.103076] (-) TimerEvent: {}
+[1.203456] (-) TimerEvent: {}
+[1.303818] (-) TimerEvent: {}
+[1.404171] (-) TimerEvent: {}
+[1.504500] (-) TimerEvent: {}
+[1.604860] (-) TimerEvent: {}
+[1.705232] (-) TimerEvent: {}
+[1.805658] (-) TimerEvent: {}
+[1.906133] (-) TimerEvent: {}
+[2.006629] (-) TimerEvent: {}
+[2.107094] (-) TimerEvent: {}
+[2.207529] (-) TimerEvent: {}
+[2.308022] (-) TimerEvent: {}
+[2.408553] (-) TimerEvent: {}
+[2.509022] (-) TimerEvent: {}
+[2.609509] (-) TimerEvent: {}
+[2.710016] (-) TimerEvent: {}
+[2.810522] (-) TimerEvent: {}
+[2.911047] (-) TimerEvent: {}
+[3.011534] (-) TimerEvent: {}
+[3.111984] (-) TimerEvent: {}
+[3.212363] (-) TimerEvent: {}
+[3.312751] (-) TimerEvent: {}
+[3.413094] (-) TimerEvent: {}
+[3.513528] (-) TimerEvent: {}
+[3.613932] (-) TimerEvent: {}
+[3.714423] (-) TimerEvent: {}
+[3.814829] (-) TimerEvent: {}
+[3.915209] (-) TimerEvent: {}
+[4.015602] (-) TimerEvent: {}
+[4.115945] (-) TimerEvent: {}
+[4.216546] (-) TimerEvent: {}
+[4.317033] (-) TimerEvent: {}
+[4.417520] (-) TimerEvent: {}
+[4.473570] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[4.473984] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[4.474139] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[4.474352] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[4.474624] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.475032] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.475246] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.475385] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.475555] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.475693] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.517689] (-) TimerEvent: {}
+[4.590137] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[4.590461] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[4.590616] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[4.590837] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[4.591014] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.591203] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.591447] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.591601] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emzx/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.591744] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[4.591877] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.617817] (-) TimerEvent: {}
+[4.718175] (-) TimerEvent: {}
+[4.818509] (-) TimerEvent: {}
+[4.918872] (-) TimerEvent: {}
+[5.019238] (-) TimerEvent: {}
+[5.119623] (-) TimerEvent: {}
+[5.219989] (-) TimerEvent: {}
+[5.320432] (-) TimerEvent: {}
+[5.420796] (-) TimerEvent: {}
+[5.521171] (-) TimerEvent: {}
+[5.621504] (-) TimerEvent: {}
+[5.721900] (-) TimerEvent: {}
+[5.822357] (-) TimerEvent: {}
+[5.922773] (-) TimerEvent: {}
+[6.023190] (-) TimerEvent: {}
+[6.123684] (-) TimerEvent: {}
+[6.224066] (-) TimerEvent: {}
+[6.324463] (-) TimerEvent: {}
+[6.424839] (-) TimerEvent: {}
+[6.525209] (-) TimerEvent: {}
+[6.625600] (-) TimerEvent: {}
+[6.726071] (-) TimerEvent: {}
+[6.826537] (-) TimerEvent: {}
+[6.926974] (-) TimerEvent: {}
+[7.027485] (-) TimerEvent: {}
+[7.127997] (-) TimerEvent: {}
+[7.228506] (-) TimerEvent: {}
+[7.328989] (-) TimerEvent: {}
+[7.429469] (-) TimerEvent: {}
+[7.529986] (-) TimerEvent: {}
+[7.630445] (-) TimerEvent: {}
+[7.730897] (-) TimerEvent: {}
+[7.831324] (-) TimerEvent: {}
+[7.931676] (-) TimerEvent: {}
+[8.032037] (-) TimerEvent: {}
+[8.132428] (-) TimerEvent: {}
+[8.232826] (-) TimerEvent: {}
+[8.333223] (-) TimerEvent: {}
+[8.433614] (-) TimerEvent: {}
+[8.534017] (-) TimerEvent: {}
+[8.634442] (-) TimerEvent: {}
+[8.734858] (-) TimerEvent: {}
+[8.835379] (-) TimerEvent: {}
+[8.935911] (-) TimerEvent: {}
+[9.036385] (-) TimerEvent: {}
+[9.136860] (-) TimerEvent: {}
+[9.237327] (-) TimerEvent: {}
+[9.337782] (-) TimerEvent: {}
+[9.438173] (-) TimerEvent: {}
+[9.538667] (-) TimerEvent: {}
+[9.639143] (-) TimerEvent: {}
+[9.739636] (-) TimerEvent: {}
+[9.840154] (-) TimerEvent: {}
+[9.940645] (-) TimerEvent: {}
+[10.041108] (-) TimerEvent: {}
+[10.141661] (-) TimerEvent: {}
+[10.242034] (-) TimerEvent: {}
+[10.342550] (-) TimerEvent: {}
+[10.442969] (-) TimerEvent: {}
+[10.543333] (-) TimerEvent: {}
+[10.643835] (-) TimerEvent: {}
+[10.691879] (rplidar_ros) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX executable rplidar_node\x1b[0m\n'}
+[10.743985] (-) TimerEvent: {}
+[10.844457] (-) TimerEvent: {}
+[10.900133] (rplidar_ros) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[10.944606] (-) TimerEvent: {}
+[11.045088] (-) TimerEvent: {}
+[11.145499] (-) TimerEvent: {}
+[11.145814] (rplidar_ros) StdoutLine: {'line': b'[ 57%] Built target rplidar_node\n'}
+[11.245628] (-) TimerEvent: {}
+[11.346019] (-) TimerEvent: {}
+[11.350156] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[11.373761] (rplidar_ros) CommandEnded: {'returncode': 0}
+[11.374979] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[11.393058] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/emzx/ros2_ws/build/rplidar_ros'], 'cwd': '/home/emzx/ros2_ws/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'emzx', 'LC_TIME': 'pt_BR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/emzx/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/emzx', 'OLDPWD': '/home/emzx/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '2049', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2481', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4050', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/emzx/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'emzx', 'JOURNAL_STREAM': '9:22646', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'emzx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/m4:@/tmp/.ICE-unix/2286,unix/m4:/tmp/.ICE-unix/2286', 'INVOCATION_ID': '724e75c6e8a84228965e008e4b49ce44', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U0N132', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/emzx/ros2_ws/install/rplidar_ros:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/my_robot_bringup:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/my_robot_interfaces:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/home/emzx/ros2_ws/install/bumperbot_mapping:/home/emzx/ros2_ws/install/bumperbot_localization:/home/emzx/ros2_ws/install/bumperbot_description:/home/emzx/ros2_ws/install/bumperbot_controller:/home/emzx/ros2_ws/install/bumperbot_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b97dba02-415a-4733-b2ee-0a376734cbaf', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/emzx/ros2_ws/build/rplidar_ros', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/emzx/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_utils/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/emzx/ros2_ws/install/rplidar_ros:/home/emzx/ros2_ws/install/my_robot_bringup:/home/emzx/ros2_ws/install/my_robot_interfaces:/home/emzx/ros2_ws/install/bumperbot_mapping:/home/emzx/ros2_ws/install/bumperbot_localization:/home/emzx/ros2_ws/install/bumperbot_description:/home/emzx/ros2_ws/install/bumperbot_controller:/home/emzx/ros2_ws/install/bumperbot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_utils:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy'}), 'shell': False}
+[11.408925] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.409840] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.411136] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[11.411592] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[11.411886] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[11.412048] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[11.412195] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[11.412396] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[11.412573] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[11.412719] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[11.412861] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[11.413048] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[11.413266] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[11.413430] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[11.413612] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[11.413801] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[11.413971] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[11.414216] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[11.414486] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[11.414676] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[11.414844] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[11.415010] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[11.415175] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[11.415385] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[11.415595] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[11.415728] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[11.415891] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[11.416028] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[11.416228] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[11.416420] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[11.416738] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[11.417035] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[11.417318] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[11.417603] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[11.417871] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[11.418129] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[11.418375] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[11.418647] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[11.418890] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[11.419127] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[11.419315] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[11.437474] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[11.437879] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.438120] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.438339] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[11.438570] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[11.438850] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/emzx/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[11.442087] (rplidar_ros) CommandEnded: {'returncode': 0}
+[11.446226] (-) TimerEvent: {}
+[11.476765] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[11.478272] (-) EventReactorShutdown: {}

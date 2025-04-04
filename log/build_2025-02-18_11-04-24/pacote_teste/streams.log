@@ -1,0 +1,68 @@
+[1.092s] Invoking command in '/home/emzx/ros2_ws/src/pacote_teste': CMAKE_PREFIX_PATH=/home/emzx/ros2_ws/install/my_robot_interfaces:/home/emzx/ros2_ws/install/my_robot_bringup:/home/emzx/ros2_ws/install/bumperbot_description:/home/emzx/ros2_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/pacote_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages:/home/emzx/ros2_ws/build/bumperbot_py:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote_teste build --build-base /home/emzx/ros2_ws/build/pacote_teste/build install --record /home/emzx/ros2_ws/build/pacote_teste/install.log --single-version-externally-managed install_data
+[1.369s] running egg_info
+[1.370s] creating ../../build/pacote_teste/pacote_teste.egg-info
+[1.388s] writing ../../build/pacote_teste/pacote_teste.egg-info/PKG-INFO
+[1.389s] writing dependency_links to ../../build/pacote_teste/pacote_teste.egg-info/dependency_links.txt
+[1.389s] writing entry points to ../../build/pacote_teste/pacote_teste.egg-info/entry_points.txt
+[1.389s] writing requirements to ../../build/pacote_teste/pacote_teste.egg-info/requires.txt
+[1.389s] writing top-level names to ../../build/pacote_teste/pacote_teste.egg-info/top_level.txt
+[1.389s] writing manifest file '../../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[1.432s] reading manifest file '../../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[1.433s] writing manifest file '../../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[1.433s] running build
+[1.433s] running build_py
+[1.433s] creating /home/emzx/ros2_ws/build/pacote_teste/build
+[1.433s] creating /home/emzx/ros2_ws/build/pacote_teste/build/lib
+[1.434s] creating /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/hw_status_publisher.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/smartphone.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/template.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/led.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/number_counter.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/__init__.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/battery.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/add_two_ints_server.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.434s] copying pacote_teste/number_publisher.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.435s] copying pacote_teste/radio.py -> /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste
+[1.435s] running install
+[1.441s] running install_lib
+[1.462s] creating /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.462s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/hw_status_publisher.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.462s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/smartphone.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.462s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/template.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/led.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/number_counter.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/__init__.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/battery.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/add_two_ints_server.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/number_publisher.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] copying /home/emzx/ros2_ws/build/pacote_teste/build/lib/pacote_teste/radio.py -> /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste
+[1.463s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/hw_status_publisher.py to hw_status_publisher.cpython-312.pyc
+[1.464s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/smartphone.py to smartphone.cpython-312.pyc
+[1.464s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/template.py to template.cpython-312.pyc
+[1.465s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/led.py to led.cpython-312.pyc
+[1.465s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/number_counter.py to number_counter.cpython-312.pyc
+[1.466s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/__init__.py to __init__.cpython-312.pyc
+[1.466s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/battery.py to battery.cpython-312.pyc
+[1.467s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[1.467s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/number_publisher.py to number_publisher.cpython-312.pyc
+[1.467s] byte-compiling /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste/radio.py to radio.cpython-312.pyc
+[1.468s] running install_data
+[1.468s] creating /home/emzx/ros2_ws/install/pacote_teste/share/ament_index
+[1.468s] creating /home/emzx/ros2_ws/install/pacote_teste/share/ament_index/resource_index
+[1.468s] creating /home/emzx/ros2_ws/install/pacote_teste/share/ament_index/resource_index/packages
+[1.468s] copying resource/pacote_teste -> /home/emzx/ros2_ws/install/pacote_teste/share/ament_index/resource_index/packages
+[1.468s] copying package.xml -> /home/emzx/ros2_ws/install/pacote_teste/share/pacote_teste
+[1.468s] running install_egg_info
+[1.489s] Copying ../../build/pacote_teste/pacote_teste.egg-info to /home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages/pacote_teste-0.0.0-py3.12.egg-info
+[1.490s] running install_scripts
+[1.622s] Installing add_two_ints_server script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.622s] Installing battery script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.622s] Installing hw_status_publisher script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.623s] Installing led_panel script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.623s] Installing noticias script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.623s] Installing number_counter script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.623s] Installing number_publisher script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.623s] Installing smartphone script to /home/emzx/ros2_ws/install/pacote_teste/lib/pacote_teste
+[1.623s] writing list of installed files to '/home/emzx/ros2_ws/build/pacote_teste/install.log'
+[1.655s] Invoked command in '/home/emzx/ros2_ws/src/pacote_teste' returned '0': CMAKE_PREFIX_PATH=/home/emzx/ros2_ws/install/my_robot_interfaces:/home/emzx/ros2_ws/install/my_robot_bringup:/home/emzx/ros2_ws/install/bumperbot_description:/home/emzx/ros2_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emzx/ros2_ws/build/pacote_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/pacote_teste/lib/python3.12/site-packages:/home/emzx/ros2_ws/build/bumperbot_py:/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages:/home/emzx/ros2_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote_teste build --build-base /home/emzx/ros2_ws/build/pacote_teste/build install --record /home/emzx/ros2_ws/build/pacote_teste/install.log --single-version-externally-managed install_data

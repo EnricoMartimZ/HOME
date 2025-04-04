@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/bumperbot_py/bumperbot_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/bumperbot_py/bumperbot_py.egg-info/dependency_links.txt
+writing entry points to ../../build/bumperbot_py/bumperbot_py.egg-info/entry_points.txt
+writing requirements to ../../build/bumperbot_py/bumperbot_py.egg-info/requires.txt
+writing top-level names to ../../build/bumperbot_py/bumperbot_py.egg-info/top_level.txt
+reading manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bumperbot_py/simple_action_server.py -> /home/emzx/ros2_ws/build/bumperbot_py/build/lib/bumperbot_py
+running install
+running install_lib
+copying /home/emzx/ros2_ws/build/bumperbot_py/build/lib/bumperbot_py/simple_action_server.py -> /home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py
+byte-compiling /home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py/simple_action_server.py to simple_action_server.cpython-312.pyc
+  File "/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py/simple_action_server.py", line 5
+    from my_robot_interfaces import
+                                   ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/bumperbot_py/bumperbot_py.egg-info to /home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_parameter script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+Installing simple_tf_kinematics script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+Installing simple_turtlesim_kinematics script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+Installing twist_converter script to /home/emzx/ros2_ws/install/bumperbot_py/lib/bumperbot_py
+writing list of installed files to '/home/emzx/ros2_ws/build/bumperbot_py/install.log'
