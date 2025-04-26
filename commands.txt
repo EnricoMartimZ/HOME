@@ -1,4 +1,3 @@
-ros2 run rviz2 rviz2
-ros2 run joint_state_publisher_gui joint_state_publisher_gui
-ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro /home/emzx/ros2_ws/src/bumperbot_description/urdf/bumperbot.urdf.xacro)"
-
+1) ros2 launch bumperbot_bringup simulated_robot.launch.py(rodar a simulação completa)
+2) ros2 launch rplidar_ros view_rplidar_a2m8_launch.py frame_id:=laser_link use_sim_time:=true(rodar o lidar com o frame_id certo)
+3) ros2 lifecycle set /slam_toolbox 1 e ros2 lifecycle set /slam_toolbox 3(rodar os dois comandos no mesmo terminal pra fazer mapeamento)
