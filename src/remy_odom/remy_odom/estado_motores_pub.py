@@ -6,14 +6,14 @@ import serial
 import math
 
 
-class SimpleController(Node):
+class EstadoMotores(Node):
 
     def __init__(self):
-        super().__init__("simple_controller")
+        super().__init__("estado_motores")
         self.joint_pub = self.create_publisher(JointState,"joint_states", 10) 
 
         self.declare_parameter("baud_rate", 115200)
-        self.declare_parameter("porta_esp", '/dev/pts/4')
+        self.declare_parameter("porta_esp", '/dev/ttyACM0')
 
         self.baud_rate = self.get_parameter("baud_rate").get_parameter_value().integer_value
         self.porta_esp = self.get_parameter("porta_esp").get_parameter_value().string_value
@@ -25,6 +25,7 @@ class SimpleController(Node):
         self.timer = self.create_timer(0.01, self.ler_serial)#100vezes/seg
             
     def ler_serial(self):
+        self.get_logger().info("nao recebeu")
         if self.ser.in_waiting > 0:  # Check if there is data in the buffer
             line = self.ser.readline().decode('utf-8').rstrip()  # Read and decode the data
             self.get_logger().info("Received: "+ line)
@@ -53,10 +54,10 @@ class SimpleController(Node):
 def main():
     rclpy.init()
 
-    simple_controller = SimpleController()
-    rclpy.spin(simple_controller)
+    estado_motores = EstadoMotores()
+    rclpy.spin(estado_motores)
     
-    simple_controller.destroy_node()
+    estado_motores.destroy_node()
     rclpy.shutdown()
 
 
