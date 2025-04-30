@@ -1,9 +1,0 @@
-[0.019s] Invoking command in '/home/emzx/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/turtlesim_catch_them_all:/home/emzx/ros2_ws/install/pacote_teste:/home/emzx/ros2_ws/install/bumperbot_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/emzx/ros2_ws/build/bumperbot_controller -- -j8 -l8
-[0.181s] Built target ament_cmake_python_symlink_bumperbot_controller
-[0.221s] running egg_info
-[0.236s] writing bumperbot_controller.egg-info/PKG-INFO
-[0.236s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
-[0.236s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
-[0.279s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
-[0.279s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
-[0.300s] Built target ament_cmake_python_build_bumperbot_controller_egg

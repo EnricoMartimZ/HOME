@@ -1,1 +1,0 @@
-/home/emzx/ros2_ws/src/bumperbot_localization/launch/global_localization.launch.py

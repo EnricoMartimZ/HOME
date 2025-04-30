@@ -1,1 +1,0 @@
-/home/emzx/ros2_ws/src/bumperbot_bringup/launch/simulated_robot.launch.py

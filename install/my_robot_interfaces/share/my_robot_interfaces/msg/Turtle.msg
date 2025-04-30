@@ -1,1 +1,0 @@
-/home/emzx/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg

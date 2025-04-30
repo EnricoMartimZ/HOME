@@ -1,9 +1,0 @@
-[console_scripts]
-add_two_ints_server = pacote_teste.add_two_ints_server:main
-battery = pacote_teste.battery:main
-hw_status_publisher = pacote_teste.hw_status_publisher:main
-led_panel = pacote_teste.led:main
-noticias = pacote_teste.radio:main
-number_counter = pacote_teste.number_counter:main
-number_publisher = pacote_teste.number_publisher:main
-smartphone = pacote_teste.smartphone:main

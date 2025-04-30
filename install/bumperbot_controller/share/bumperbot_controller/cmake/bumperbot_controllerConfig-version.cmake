@@ -1,1 +1,0 @@
-/home/emzx/ros2_ws/build/bumperbot_controller/ament_cmake_core/bumperbot_controllerConfig-version.cmake

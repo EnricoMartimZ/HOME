@@ -1,5 +1,0 @@
-  File "/home/emzx/ros2_ws/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py/simple_action_server.py", line 5
-    from my_robot_interfaces import
-                                   ^
-SyntaxError: invalid syntax
-

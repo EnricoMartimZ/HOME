@@ -1,1 +1,0 @@
-/home/emzx/ros2_ws/build/bumperbot_localization/ament_cmake_core/bumperbot_localizationConfig-version.cmake
