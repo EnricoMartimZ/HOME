@@ -38,13 +38,13 @@ def generate_launch_description():
             "controller.launch.py"
         ),
         launch_arguments={
-            "use_simple_controller": "False",
+            "use_simple_controller": "True",
             "use_python": "True"
         }.items(),
     )
 
     delayed_controller = TimerAction(
-        period=15.0,  # Atraso de 15 segundos
+        period= 5.0,  
         actions=[controller]
     )
     
