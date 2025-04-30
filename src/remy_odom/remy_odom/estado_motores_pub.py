@@ -12,7 +12,16 @@ class SimpleController(Node):
         super().__init__("simple_controller")
         self.joint_pub = self.create_publisher(JointState,"joint_states", 10) 
 
-        self.ser = serial.Serial('/dev/pts/4', 9600)
+        self.declare_parameter("baud_rate", 115200)
+        self.declare_parameter("porta_esp", '/dev/pts/4')
+
+        self.baud_rate = self.get_parameter("baud_rate").get_parameter_value().integer_value
+        self.porta_esp = self.get_parameter("porta_esp").get_parameter_value().string_value
+
+        self.get_logger().info("Using wheel radius %d" % self.baud_rate)
+        self.get_logger().info("Using wheel separation %s" % self.porta_esp)
+        
+        self.ser = serial.Serial(self.porta_esp, self.baud_rate)
         self.timer = self.create_timer(0.01, self.ler_serial)#100vezes/seg
             
     def ler_serial(self):
