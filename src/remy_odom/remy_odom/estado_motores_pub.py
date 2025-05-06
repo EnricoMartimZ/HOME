@@ -10,7 +10,8 @@ class EstadoMotores(Node):
 
     def __init__(self):
         super().__init__("estado_motores")
-        self.joint_pub = self.create_publisher(JointState,"joint_states", 10) 
+        self.joint_pub = self.create_publisher(JointState,"joint_states", 10)
+        """
 
         self.declare_parameter("baud_rate", 115200)
         self.declare_parameter("porta_esp", '/dev/ttyACM0')
@@ -19,13 +20,13 @@ class EstadoMotores(Node):
         self.porta_esp = self.get_parameter("porta_esp").get_parameter_value().string_value
 
         self.get_logger().info("Using wheel radius %d" % self.baud_rate)
-        self.get_logger().info("Using wheel separation %s" % self.porta_esp)
+        self.get_logger().info("Using wheel separation %s" % self.porta_esp)"""
         
-        self.ser = serial.Serial(self.porta_esp, self.baud_rate)
+        self.ser = serial.Serial('/dev/ttyACM0', 115200)
         self.timer = self.create_timer(0.01, self.ler_serial)#100vezes/seg
             
     def ler_serial(self):
-        self.get_logger().info("nao recebeu")
+        self.get_logger().info("tentou ler")
         if self.ser.in_waiting > 0:  # Check if there is data in the buffer
             line = self.ser.readline().decode('utf-8').rstrip()  # Read and decode the data
             self.get_logger().info("Received: "+ line)
