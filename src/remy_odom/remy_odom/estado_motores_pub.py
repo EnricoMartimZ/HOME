@@ -22,7 +22,7 @@ class EstadoMotores(Node):
         self.get_logger().info("Using wheel radius %d" % self.baud_rate)
         self.get_logger().info("Using wheel separation %s" % self.porta_esp)"""
         
-        self.ser = serial.Serial('/dev/ttyACM0', 115200)
+        self.ser = serial.Serial('/dev/ttyUSB0', 115200)
         self.timer = self.create_timer(0.01, self.ler_serial)#100vezes/seg
             
     def ler_serial(self):
@@ -38,7 +38,7 @@ class EstadoMotores(Node):
 
     # rm 24.9 54.8 [24.9 rotacoes] 1 rot = 2pi rad
     def publicar(self, linha_lida:str):
-        array = linha_lida.split()
+        '''array = linha_lida.split()
         if(len(array)==5):
             #ee ed ax ay rz
             self.pos_mot_e = float(array[0])
@@ -51,7 +51,7 @@ class EstadoMotores(Node):
             msg.position[1] = self.pos_rad_mot_e # a ordem ta certa
             msg.position[0] = self.pos_rad_mot_d # a ordem ta certa
             self.get_logger().info(array)
-            #self.joint_pub.publish(msg)
+            #self.joint_pub.publish(msg)'''
 
 
 def main():
