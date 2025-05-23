@@ -39,18 +39,20 @@ class EstadoMotores(Node):
     # rm 24.9 54.8 [24.9 rotacoes] 1 rot = 2pi rad
     def publicar(self, linha_lida:str):
         array = linha_lida.split()
-        if(len(array)==2):
-            if(array[0]=="rm"):
-                self.pos_mot_e = float(array[1])
-                self.pos_mot_d = float(array[2])
-                self.pos_rad_mot_e = self.pos_mot_e * 2 * math.pi
-                self.pos_rad_mot_d = self.pos_mot_d * 2 * math.pi
-                msg = JointState()
-                time = self.get_clock().now().to_msg()
-                msg.header.stamp=time
-                msg.position[1] = self.pos_rad_mot_e # a ordem ta certa
-                msg.position[0] = self.pos_rad_mot_d # a ordem ta certa
-                self.joint_pub.publish(msg)
+        if(len(array)==5):
+            #ee ed ax ay rz
+            self.pos_mot_e = float(array[0])
+            self.pos_mot_d = float(array[1])
+            self.pos_rad_mot_e = self.pos_mot_e * 2 * math.pi
+            self.pos_rad_mot_d = self.pos_mot_d * 2 * math.pi
+            msg = JointState()
+            time = self.get_clock().now().to_msg()
+            msg.header.stamp=time
+            msg.position[1] = self.pos_rad_mot_e # a ordem ta certa
+            msg.position[0] = self.pos_rad_mot_d # a ordem ta certa
+            self.get_logger().info(array)
+            #self.joint_pub.publish(msg)
+
 
 def main():
     rclpy.init()
