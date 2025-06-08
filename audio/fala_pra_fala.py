@@ -4,12 +4,15 @@ from pathlib import Path
 import speech_recognition as sr
 import pyttsx3
 import sys
-
 import io
 from pydub import AudioSegment
-from pydub.playback import play
 from playsound import playsound
 r = sr.Recognizer()
+
+
+chat_history = [
+    {"role": "system", "content": "you are a voice assistant. answer briefly"}
+]
 
 
 def test_microphone():
@@ -68,19 +71,11 @@ def record_text():
         return None
 
 def output_text(text):
+    chat_history.append({"role": "user", "content": text})
     client = Groq(api_key='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')
     completion = client.chat.completions.create(
         model="meta-llama/llama-4-scout-17b-16e-instruct",
-        messages=[
-            {
-            "role": "user",
-            "content": text
-        },
-        {
-            "role": "assistant",
-            "content": "use only a phrase"
-        },
-        ],
+        messages=chat_history,
         temperature=1,
         max_completion_tokens=1024,
         top_p=1,
@@ -95,6 +90,7 @@ def output_text(text):
         resposta_do_str+=(chunk.choices[0].delta.content or "")
     print("resposta do gpt: "+str(resposta_do_str))
 
+    chat_history.append({"role": "assistant", "content": resposta_do_str})
     speech_file_path = Path(__file__).parent / "speech.mp3"
     response = client.audio.speech.create(
     model="playai-tts",
