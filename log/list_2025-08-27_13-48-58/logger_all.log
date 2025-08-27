@@ -1,0 +1,253 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/pc/Documents/GitHub/HOME', '--log-base', '/dev/null']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/pc/Documents/GitHub/HOME', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbf7ac60e80>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fbf7ade2c80>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fbf7ade2c80>>)
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pc/Documents/GitHub/HOME', '/home/pc/Documents/GitHub/HOME/--log-base', '/dev/null'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/Yolo_trainig) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/audio) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/log) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/log) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/log) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao1) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/mudancas_testar/opcao_2) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/build) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/build) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_bringup' with type 'ros.ament_cmake' and name 'bumperbot_bringup'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_controller) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_controller' with type 'ros.ament_cmake' and name 'bumperbot_controller'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_description) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_localization) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_localization' with type 'ros.ament_cmake' and name 'bumperbot_localization'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping' with type 'ros.ament_cmake' and name 'bumperbot_mapping'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_py) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_py' with type 'ros.ament_python' and name 'bumperbot_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/bumperbot_utils) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/bumperbot_utils' with type 'ros.ament_python' and name 'bumperbot_utils'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_bringup) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/pacote_teste) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/pacote_teste' with type 'ros.ament_python' and name 'pacote_teste'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/remy_odom) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/remy_odom' with type 'ros.ament_cmake' and name 'remy_odom'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/rplidar_ros) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pc/Documents/GitHub/HOME/src/turtlesim_catch_them_all' with type 'ros.ament_python' and name 'turtlesim_catch_them_all'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
