@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 
-model = YOLO('runs/detect/treinada (falta bandeja)6/weights/best.pt')
+model = YOLO('runs/detect/treinada (falta bandeja)5/weights/best.pt')
 
 # Inicializa a captura de vídeo da câmera padrão (índice 0)
 camera = cv2.VideoCapture(0)
