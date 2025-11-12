@@ -1,0 +1,13 @@
+twist_mux:
+  ros__parameters:
+    locks:
+      safety_stop:
+        topic: safety_stop
+        timeout: 0.0
+        priority: 255
+      # Você pode adicionar outros locks conforme necessário
+      # Por exemplo:
+      # pause:
+      #   topic: pause_button
+      #   timeout: 0.0
+      #   priority: 200

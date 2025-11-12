@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-16e0918344a812f7c23c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_controller_egg-6b623b93f696f57e641a.json",
+					"name" : "ament_cmake_python_build_bumperbot_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_controller-f47dd2689f81cd1ae122.json",
+					"name" : "ament_cmake_python_copy_bumperbot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_controller_uninstall-b4778884959df7287857.json",
+					"name" : "bumperbot_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8722e855bd953ad7eeca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/Documents/GitHub/HOME/src/build/bumperbot_controller",
+		"source" : "/home/pc/Documents/GitHub/HOME/src/bumperbot_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

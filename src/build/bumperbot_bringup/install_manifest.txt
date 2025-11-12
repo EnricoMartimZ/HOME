@@ -1,0 +1,16 @@
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/launch/simulated_robot.launch.py
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/ament_index/resource_index/parent_prefix_path/bumperbot_bringup
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.sh
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.dsv
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.sh
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.dsv
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.bash
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.sh
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.zsh
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.dsv
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/ament_index/resource_index/packages/bumperbot_bringup
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig.cmake
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig-version.cmake
+/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/package.xml

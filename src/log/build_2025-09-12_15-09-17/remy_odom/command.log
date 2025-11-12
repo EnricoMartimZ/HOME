@@ -1,0 +1,6 @@
+Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/remy_odom -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/remy_odom
+Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/remy_odom -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/remy_odom
+Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/remy_odom -- -j12 -l12
+Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/remy_odom -- -j12 -l12
+Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/remy_odom
+Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/remy_odom

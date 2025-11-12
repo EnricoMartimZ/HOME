@@ -1,0 +1,92 @@
+[0.371s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/remy_odom -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/remy_odom
+[0.420s] -- The C compiler identification is GNU 11.4.0
+[0.462s] -- The CXX compiler identification is GNU 11.4.0
+[0.468s] -- Detecting C compiler ABI info
+[0.522s] -- Detecting C compiler ABI info - done
+[0.528s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.528s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.591s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.774s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.802s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.804s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.810s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.860s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.924s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.947s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.979s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.986s] -- Looking for pthread.h
+[1.042s] -- Looking for pthread.h - found
+[1.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.095s] -- Found Threads: TRUE  
+[1.127s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.128s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.137s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.148s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.159s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.280s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.327s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.327s] -- Added test 'lint_cmake' to check CMake code style
+[1.327s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.327s] -- Added test 'xmllint' to check XML markup files
+[1.328s] -- Configuring done
+[1.331s] -- Generating done
+[1.333s] -- Build files have been written to: /home/pc/Documents/GitHub/HOME/src/build/remy_odom
+[1.340s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/remy_odom -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/remy_odom
+[1.342s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/remy_odom -- -j12 -l12
+[1.384s] Built target ament_cmake_python_copy_remy_odom
+[1.521s] running egg_info
+[1.522s] creating remy_odom.egg-info
+[1.522s] writing remy_odom.egg-info/PKG-INFO
+[1.522s] writing dependency_links to remy_odom.egg-info/dependency_links.txt
+[1.522s] writing top-level names to remy_odom.egg-info/top_level.txt
+[1.522s] writing manifest file 'remy_odom.egg-info/SOURCES.txt'
+[1.523s] reading manifest file 'remy_odom.egg-info/SOURCES.txt'
+[1.524s] writing manifest file 'remy_odom.egg-info/SOURCES.txt'
+[1.543s] Built target ament_cmake_python_build_remy_odom_egg
+[1.552s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/remy_odom -- -j12 -l12
+[1.554s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/remy_odom
+[1.560s] -- Install configuration: ""
+[1.560s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/environment/pythonpath.sh
+[1.560s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/environment/pythonpath.dsv
+[1.560s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom-0.0.0-py3.10.egg-info
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom-0.0.0-py3.10.egg-info/top_level.txt
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom-0.0.0-py3.10.egg-info/PKG-INFO
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom/estado_motores_pub.py
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom/odom_pub.py
+[1.561s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom/__init__.py
+[1.586s] Listing '/home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom'...
+[1.586s] Compiling '/home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom/__init__.py'...
+[1.586s] Compiling '/home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom/estado_motores_pub.py'...
+[1.586s] Compiling '/home/pc/Documents/GitHub/HOME/src/install/remy_odom/local/lib/python3.10/dist-packages/remy_odom/odom_pub.py'...
+[1.589s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/lib/remy_odom/estado_motores_pub.py
+[1.589s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/lib/remy_odom/odom_pub.py
+[1.589s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/ament_index/resource_index/package_run_dependencies/remy_odom
+[1.589s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/ament_index/resource_index/parent_prefix_path/remy_odom
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/environment/ament_prefix_path.sh
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/environment/ament_prefix_path.dsv
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/environment/path.sh
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/environment/path.dsv
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/local_setup.bash
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/local_setup.sh
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/local_setup.zsh
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/local_setup.dsv
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/package.dsv
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/ament_index/resource_index/packages/remy_odom
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/cmake/remy_odomConfig.cmake
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/cmake/remy_odomConfig-version.cmake
+[1.590s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/remy_odom/share/remy_odom/package.xml
+[1.592s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/remy_odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/remy_odom

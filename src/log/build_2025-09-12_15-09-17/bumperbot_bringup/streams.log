@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup
+[0.378s] -- The C compiler identification is GNU 11.4.0
+[0.378s] -- The CXX compiler identification is GNU 11.4.0
+[0.378s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.379s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.430s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.590s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.590s] -- Added test 'lint_cmake' to check CMake code style
+[0.590s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.594s] -- Added test 'xmllint' to check XML markup files
+[0.595s] -- Configuring done
+[0.598s] -- Generating done
+[0.599s] -- Build files have been written to: /home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup
+[0.603s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/bumperbot_bringup -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup
+[0.605s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup -- -j12 -l12
+[0.634s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup -- -j12 -l12
+[0.641s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup
+[0.647s] -- Install configuration: ""
+[0.647s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/launch
+[0.647s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/launch/simulated_robot.launch.py
+[0.647s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup
+[0.647s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/ament_index/resource_index/parent_prefix_path/bumperbot_bringup
+[0.647s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.sh
+[0.647s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.dsv
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.sh
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.dsv
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.bash
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.sh
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.zsh
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.dsv
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/ament_index/resource_index/packages/bumperbot_bringup
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig.cmake
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig-version.cmake
+[0.648s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/bumperbot_bringup/share/bumperbot_bringup/package.xml
+[0.650s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/bumperbot_bringup

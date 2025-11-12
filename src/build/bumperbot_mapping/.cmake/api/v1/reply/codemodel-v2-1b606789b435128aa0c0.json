@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d4cd57ab0157a1590e64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_mapping_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_mapping_egg-b273c231a84810ffda33.json",
+					"name" : "ament_cmake_python_build_bumperbot_mapping_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_mapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_mapping-f68f2eafda8e32867203.json",
+					"name" : "ament_cmake_python_copy_bumperbot_mapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_mapping_uninstall-6dcf0daca67d8e6d3e76.json",
+					"name" : "bumperbot_mapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4f70b65a5518a02d4a81.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/Documents/GitHub/HOME/src/build/bumperbot_mapping",
+		"source" : "/home/pc/Documents/GitHub/HOME/src/bumperbot_mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

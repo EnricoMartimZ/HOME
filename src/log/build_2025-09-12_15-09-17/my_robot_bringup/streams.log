@@ -1,0 +1,46 @@
+[0.007s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.329s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.381s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.428s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.428s] -- Added test 'lint_cmake' to check CMake code style
+[0.428s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.428s] -- Added test 'xmllint' to check XML markup files
+[0.429s] -- Configuring done
+[0.430s] -- Generating done
+[0.431s] -- Build files have been written to: /home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup
+[0.434s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pc/Documents/GitHub/HOME/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup
+[0.435s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup -- -j12 -l12
+[0.464s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup -- -j12 -l12
+[0.466s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup
+[0.473s] -- Install configuration: ""
+[0.473s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/launch
+[0.473s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.474s] -- Installing: /home/pc/Documents/GitHub/HOME/src/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.476s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pc/Documents/GitHub/HOME/src/build/my_robot_bringup

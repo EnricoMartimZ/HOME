@@ -1,0 +1,9 @@
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/Fibonacci.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl
+/home/pc/Documents/GitHub/HOME/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/GetTransform.idl

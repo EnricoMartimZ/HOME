@@ -1,0 +1,39 @@
+teleop_twist_keyboard_node:
+  ros__parameters:
+    # Velocidades lineares
+    linear_speed: 
+      slow: 0.2   # Velocidade lenta
+      normal: 0.5  # Velocidade normal
+      fast: 1.0    # Velocidade rápida
+    
+    # Velocidades angulares
+    angular_speed:
+      slow: 0.3    # Velocidade de rotação lenta
+      normal: 0.7  # Velocidade de rotação normal
+      fast: 1.4    # Velocidade de rotação rápida
+    
+    # Mapeamento de teclas
+    keymap:
+      # Movimento linear
+      'w': [1.0, 0.0, 0.0]    # Frente
+      's': [-1.0, 0.0, 0.0]   # Trás
+      'a': [0.0, 0.0, 1.0]    # Gira para esquerda
+      'd': [0.0, 0.0, -1.0]   # Gira para direita
+      
+      # Combinações
+      'q': [1.0, 0.0, 1.0]    # Frente e esquerda
+      'e': [1.0, 0.0, -1.0]   # Frente e direita
+      'z': [-1.0, 0.0, 1.0]   # Trás e esquerda
+      'c': [-1.0, 0.0, -1.0]  # Trás e direita
+      
+      # Controle de velocidade
+      'r': 'increase_linear'   # Aumenta velocidade linear
+      'f': 'decrease_linear'   # Diminui velocidade linear
+      't': 'increase_angular'  # Aumenta velocidade angular
+      'g': 'decrease_angular'  # Diminui velocidade angular
+      
+      # Parada
+      'space': [0.0, 0.0, 0.0] # Para todos os movimentos
+
+    # Tópico para publicação dos comandos
+    cmd_vel_topic: "bumperbot_controller/cmd_vel"

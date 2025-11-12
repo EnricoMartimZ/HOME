@@ -1,0 +1,12 @@
+Your Class           |  EPIC-KITCHENS  |  Amsterdam Garbage  |  Belarus Person+Bag  |  RAP Dataset  |  Open Images V4           |  Updated Coverage
+---------------------+-----------------+---------------------+----------------------+---------------+---------------------------+------------------
+Cutlery              |  ✅ Full         |  ❌ None             |  ❌ None              |  ❌ None       |  ✅ Present                |  Excellent       
+Tableware            |  ✅ Full         |  ❌ None             |  ❌ None              |  ❌ None       |  ✅ Present                |  Excellent       
+Pourable *           |  ✅ Full         |  ❌ None             |  ❌ None              |  ❌ None       |  ❌ None                   |  Excellent       
+Heavy Object *       |  ❌ Limited      |  ❌ None             |  ❌ None              |  ❌ None       |  ❌ None                   |  Moderate        
+Tiny Object *        |  ❌ Limited      |  ❌ None             |  ❌ None              |  ❌ None       |  ❌ None                   |  Moderate        
+Trays                |  ✅ Present      |  ❌ None             |  ❌ None              |  ❌ None       |  ✅ Present                |  Excellent       
+Trash Bags           |  ❌ None         |  ✅1,069 bags        |  ❌ None              |  ❌ None       |  ✅ Present                |  Excellent       
+Bags                 |  ❌ None         |  ❌ None             |  ✅383 images         |  ✅5 types     |  ✅ Handbag, Shopping bag  |  Excellent       
+Fragile Object *     |  ❌ None         |  ❌ None             |  ❌ None              |  ❌ None       |  ❌ None                   |  Poor            
+Deformable Object *  |  ❌ Limited      |  ❌ None             |  ❌ None              |  ❌ None       |  ❌ None                   |  Poor            

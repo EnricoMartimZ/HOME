@@ -1,0 +1,60 @@
+[0.496s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/pacote_teste': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/build/pacote_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pacote_teste build --build-base /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build install --record /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/install.log --single-version-externally-managed install_data
+[0.617s] running egg_info
+[0.617s] writing ../build/pacote_teste/pacote_teste.egg-info/PKG-INFO
+[0.618s] writing dependency_links to ../build/pacote_teste/pacote_teste.egg-info/dependency_links.txt
+[0.618s] writing entry points to ../build/pacote_teste/pacote_teste.egg-info/entry_points.txt
+[0.618s] writing requirements to ../build/pacote_teste/pacote_teste.egg-info/requires.txt
+[0.618s] writing top-level names to ../build/pacote_teste/pacote_teste.egg-info/top_level.txt
+[0.619s] reading manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[0.627s] writing manifest file '../build/pacote_teste/pacote_teste.egg-info/SOURCES.txt'
+[0.627s] running build
+[0.627s] running build_py
+[0.627s] copying pacote_teste/number_publisher.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.627s] copying pacote_teste/radio.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.627s] copying pacote_teste/led.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.627s] copying pacote_teste/hw_status_publisher.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.627s] copying pacote_teste/__init__.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.627s] copying pacote_teste/template.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.628s] copying pacote_teste/battery.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.628s] copying pacote_teste/add_two_ints_server.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.628s] copying pacote_teste/number_counter.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.628s] copying pacote_teste/smartphone.py -> /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste
+[0.628s] running install
+[0.628s] running install_lib
+[0.629s] creating /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/number_publisher.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/radio.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/test.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/led.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/hw_status_publisher.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/__init__.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/template.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/battery.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.629s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/add_two_ints_server.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.630s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/number_counter.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.630s] copying /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build/lib/pacote_teste/smartphone.py -> /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste
+[0.630s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/number_publisher.py to number_publisher.cpython-310.pyc
+[0.630s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/radio.py to radio.cpython-310.pyc
+[0.630s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/test.py to test.cpython-310.pyc
+[0.630s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/led.py to led.cpython-310.pyc
+[0.630s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[0.631s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/__init__.py to __init__.cpython-310.pyc
+[0.631s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/template.py to template.cpython-310.pyc
+[0.631s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/battery.py to battery.cpython-310.pyc
+[0.631s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.631s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/number_counter.py to number_counter.cpython-310.pyc
+[0.631s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste/smartphone.py to smartphone.cpython-310.pyc
+[0.632s] running install_data
+[0.632s] running install_egg_info
+[0.633s] Copying ../build/pacote_teste/pacote_teste.egg-info to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages/pacote_teste-0.0.0-py3.10.egg-info
+[0.633s] running install_scripts
+[0.646s] Installing add_two_ints_server script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.646s] Installing battery script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.646s] Installing hw_status_publisher script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.646s] Installing led_panel script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.647s] Installing noticias script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.647s] Installing number_counter script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.647s] Installing number_publisher script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.647s] Installing smartphone script to /home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/pacote_teste
+[0.647s] writing list of installed files to '/home/pc/Documents/GitHub/HOME/src/build/pacote_teste/install.log'
+[0.665s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/pacote_teste' returned '0': AMENT_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces LD_LIBRARY_PATH=/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/build/pacote_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/Documents/GitHub/HOME/src/install/pacote_teste/lib/python3.10/site-packages:/home/pc/Documents/GitHub/HOME/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pacote_teste build --build-base /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/build install --record /home/pc/Documents/GitHub/HOME/src/build/pacote_teste/install.log --single-version-externally-managed install_data

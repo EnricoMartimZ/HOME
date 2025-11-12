@@ -1,0 +1,8 @@
+setup.py
+remy_odom/__init__.py
+remy_odom/estado_motores_pub.py
+remy_odom/odom_pub.py
+remy_odom.egg-info/PKG-INFO
+remy_odom.egg-info/SOURCES.txt
+remy_odom.egg-info/dependency_links.txt
+remy_odom.egg-info/top_level.txt

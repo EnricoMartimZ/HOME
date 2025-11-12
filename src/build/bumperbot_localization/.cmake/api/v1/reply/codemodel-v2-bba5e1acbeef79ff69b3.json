@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2b0275482d4a220cd893.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_localization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_localization_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_localization_egg-091efd2c3a9b91e4a0a0.json",
+					"name" : "ament_cmake_python_build_bumperbot_localization_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_localization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_localization-7b4ed0b85ccfefefdf94.json",
+					"name" : "ament_cmake_python_copy_bumperbot_localization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_localization_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_localization_uninstall-bf16135a178dedf07236.json",
+					"name" : "bumperbot_localization_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9cef16778a8b9a5adfb5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/Documents/GitHub/HOME/src/build/bumperbot_localization",
+		"source" : "/home/pc/Documents/GitHub/HOME/src/bumperbot_localization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

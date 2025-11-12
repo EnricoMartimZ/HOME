@@ -1,0 +1,45 @@
+[0.704s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/bumperbot_utils': PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_utils build --build-base /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build install --record /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/install.log --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.854s] creating ../build/bumperbot_utils/bumperbot_utils.egg-info
+[0.854s] writing ../build/bumperbot_utils/bumperbot_utils.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../build/bumperbot_utils/bumperbot_utils.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../build/bumperbot_utils/bumperbot_utils.egg-info/entry_points.txt
+[0.854s] writing requirements to ../build/bumperbot_utils/bumperbot_utils.egg-info/requires.txt
+[0.854s] writing top-level names to ../build/bumperbot_utils/bumperbot_utils.egg-info/top_level.txt
+[0.855s] writing manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[0.855s] reading manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[0.856s] writing manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[0.856s] running build
+[0.856s] running build_py
+[0.856s] creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build
+[0.856s] creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib
+[0.856s] creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[0.856s] copying bumperbot_utils/safety_stop.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[0.856s] copying bumperbot_utils/__init__.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[0.856s] copying bumperbot_utils/scan_republish.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[0.857s] copying bumperbot_utils/simple_trajectory.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+[0.857s] running install
+[0.857s] running install_lib
+[0.858s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+[0.858s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/safety_stop.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+[0.858s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/__init__.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+[0.858s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/scan_republish.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+[0.858s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/simple_trajectory.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+[0.859s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/safety_stop.py to safety_stop.cpython-310.pyc
+[0.859s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/__init__.py to __init__.cpython-310.pyc
+[0.859s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/scan_republish.py to scan_republish.cpython-310.pyc
+[0.860s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/simple_trajectory.py to simple_trajectory.cpython-310.pyc
+[0.860s] running install_data
+[0.860s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index
+[0.860s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index/resource_index
+[0.860s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index/resource_index/packages
+[0.860s] copying resource/bumperbot_utils -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index/resource_index/packages
+[0.860s] copying package.xml -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/bumperbot_utils
+[0.860s] running install_egg_info
+[0.861s] Copying ../build/bumperbot_utils/bumperbot_utils.egg-info to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[0.861s] running install_scripts
+[0.877s] Installing desenho_trajetoria script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/bumperbot_utils
+[0.877s] Installing parada_segura script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/bumperbot_utils
+[0.878s] Installing scan_republish script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/bumperbot_utils
+[0.878s] writing list of installed files to '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/install.log'
+[0.902s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/bumperbot_utils' returned '0': PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_utils build --build-base /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build install --record /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/install.log --single-version-externally-managed install_data

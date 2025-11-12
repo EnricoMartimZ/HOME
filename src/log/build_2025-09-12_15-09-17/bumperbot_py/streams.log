@@ -1,0 +1,70 @@
+[0.710s] Invoking command in '/home/pc/Documents/GitHub/HOME/src/bumperbot_py': PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py build --build-base /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build install --record /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/install.log --single-version-externally-managed install_data
+[0.861s] running egg_info
+[0.861s] creating ../build/bumperbot_py/bumperbot_py.egg-info
+[0.861s] writing ../build/bumperbot_py/bumperbot_py.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../build/bumperbot_py/bumperbot_py.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../build/bumperbot_py/bumperbot_py.egg-info/entry_points.txt
+[0.862s] writing requirements to ../build/bumperbot_py/bumperbot_py.egg-info/requires.txt
+[0.862s] writing top-level names to ../build/bumperbot_py/bumperbot_py.egg-info/top_level.txt
+[0.862s] writing manifest file '../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[0.863s] reading manifest file '../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[0.864s] writing manifest file '../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[0.864s] running build
+[0.864s] running build_py
+[0.864s] creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build
+[0.864s] creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib
+[0.864s] creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.864s] copying bumperbot_py/turtlesim_kinematics.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.864s] copying bumperbot_py/simple_action_server.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.864s] copying bumperbot_py/simple_action_client.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/simple_qos_subscriber.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/simple_qos_publisher.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/simple_tf_kinematics.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/__init__.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/simple_parameter.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/simple_lifecycle_node.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] copying bumperbot_py/twist_converter.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py
+[0.865s] running install
+[0.865s] running install_lib
+[0.866s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.866s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/turtlesim_kinematics.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.866s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_action_server.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.866s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_action_client.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_qos_subscriber.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_qos_publisher.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_tf_kinematics.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/__init__.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_parameter.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/simple_lifecycle_node.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build/lib/bumperbot_py/twist_converter.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py
+[0.867s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/turtlesim_kinematics.py to turtlesim_kinematics.cpython-310.pyc
+[0.868s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_action_server.py to simple_action_server.cpython-310.pyc
+[0.868s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_action_client.py to simple_action_client.cpython-310.pyc
+[0.868s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_qos_subscriber.py to simple_qos_subscriber.cpython-310.pyc
+[0.868s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_qos_publisher.py to simple_qos_publisher.cpython-310.pyc
+[0.869s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc
+[0.869s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/__init__.py to __init__.cpython-310.pyc
+[0.869s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_parameter.py to simple_parameter.cpython-310.pyc
+[0.869s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/simple_lifecycle_node.py to simple_lifecycle_node.cpython-310.pyc
+[0.870s] byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py/twist_converter.py to twist_converter.cpython-310.pyc
+[0.870s] running install_data
+[0.870s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/share/ament_index
+[0.870s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/share/ament_index/resource_index
+[0.871s] creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/share/ament_index/resource_index/packages
+[0.871s] copying resource/bumperbot_py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/share/ament_index/resource_index/packages
+[0.871s] copying package.xml -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/share/bumperbot_py
+[0.871s] running install_egg_info
+[0.872s] Copying ../build/bumperbot_py/bumperbot_py.egg-info to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages/bumperbot_py-0.0.0-py3.10.egg-info
+[0.872s] running install_scripts
+[0.888s] Installing keyboard_controller script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_action_client script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_action_server script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_lifecycle_node script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_parameter script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_qos_publisher script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_qos_subscriber script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_tf_kinematics script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing simple_turtlesim_kinematics script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] Installing twist_converter script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/bumperbot_py
+[0.888s] writing list of installed files to '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/install.log'
+[0.917s] Invoked command in '/home/pc/Documents/GitHub/HOME/src/bumperbot_py' returned '0': PYTHONPATH=/home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/Documents/GitHub/HOME/src/install/bumperbot_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_py build --build-base /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/build install --record /home/pc/Documents/GitHub/HOME/src/build/bumperbot_py/install.log --single-version-externally-managed install_data

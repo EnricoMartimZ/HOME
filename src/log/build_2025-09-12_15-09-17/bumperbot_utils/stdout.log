@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/bumperbot_utils/bumperbot_utils.egg-info
+writing ../build/bumperbot_utils/bumperbot_utils.egg-info/PKG-INFO
+writing dependency_links to ../build/bumperbot_utils/bumperbot_utils.egg-info/dependency_links.txt
+writing entry points to ../build/bumperbot_utils/bumperbot_utils.egg-info/entry_points.txt
+writing requirements to ../build/bumperbot_utils/bumperbot_utils.egg-info/requires.txt
+writing top-level names to ../build/bumperbot_utils/bumperbot_utils.egg-info/top_level.txt
+writing manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+reading manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+writing manifest file '../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build
+creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib
+creating /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+copying bumperbot_utils/safety_stop.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+copying bumperbot_utils/__init__.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+copying bumperbot_utils/scan_republish.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+copying bumperbot_utils/simple_trajectory.py -> /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils
+running install
+running install_lib
+creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/safety_stop.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/__init__.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/scan_republish.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+copying /home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/build/lib/bumperbot_utils/simple_trajectory.py -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/safety_stop.py to safety_stop.cpython-310.pyc
+byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/scan_republish.py to scan_republish.cpython-310.pyc
+byte-compiling /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/simple_trajectory.py to simple_trajectory.cpython-310.pyc
+running install_data
+creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index
+creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index/resource_index
+creating /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index/resource_index/packages
+copying resource/bumperbot_utils -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/ament_index/resource_index/packages
+copying package.xml -> /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/share/bumperbot_utils
+running install_egg_info
+Copying ../build/bumperbot_utils/bumperbot_utils.egg-info to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+running install_scripts
+Installing desenho_trajetoria script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/bumperbot_utils
+Installing parada_segura script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/bumperbot_utils
+Installing scan_republish script to /home/pc/Documents/GitHub/HOME/src/install/bumperbot_utils/lib/bumperbot_utils
+writing list of installed files to '/home/pc/Documents/GitHub/HOME/src/build/bumperbot_utils/install.log'
