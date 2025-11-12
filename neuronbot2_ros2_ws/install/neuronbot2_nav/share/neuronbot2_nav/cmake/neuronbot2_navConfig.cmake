@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav/ament_cmake_core/neuronbot2_navConfig.cmake

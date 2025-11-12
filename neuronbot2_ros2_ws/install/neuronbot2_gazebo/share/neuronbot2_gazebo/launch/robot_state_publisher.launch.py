@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_gazebo/launch/robot_state_publisher.launch.py

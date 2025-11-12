@@ -1,0 +1,87 @@
+[0.028s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/slam_gmapping -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/slam_gmapping
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.358s] -- The CXX compiler identification is GNU 11.4.0
+[0.379s] -- Detecting C compiler ABI info
+[0.580s] -- Detecting C compiler ABI info - done
+[0.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.608s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.619s] -- Detecting CXX compiler ABI info
+[0.857s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.889s] -- Detecting CXX compile features
+[0.890s] -- Detecting CXX compile features - done
+[0.900s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.418s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.630s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.740s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.868s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.889s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.921s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.127s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.240s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.279s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.522s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.532s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.854s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.969s] -- Looking for pthread.h
+[3.100s] -- Looking for pthread.h - found
+[3.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.239s] -- Found Threads: TRUE  
+[3.471s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.505s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.507s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.507s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.515s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.553s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.595s] -- Found openslam_gmapping: 0.1.2 (/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[3.601s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.813s] -- Configured cppcheck include dirs: /home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/slam_gmapping/include
+[3.814s] -- Configured cppcheck exclude dirs and/or files: 
+[3.815s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.815s] -- Added test 'lint_cmake' to check CMake code style
+[3.816s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.818s] -- Added test 'uncrustify' to check C / C++ code style
+[3.818s] -- Configured uncrustify additional arguments: 
+[3.820s] -- Added test 'xmllint' to check XML markup files
+[3.823s] -- Configuring done
+[3.845s] -- Generating done
+[3.853s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/slam_gmapping
+[3.871s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/slam_gmapping -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/slam_gmapping
+[3.875s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/slam_gmapping -- -j8 -l8
+[3.972s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[4.468s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:40[m[K,
+[4.468s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[4.468s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[4.468s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[4.468s]       |  [01;35m[K^~~~~~~[m[K
+[39.232s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[39.669s] [100%] Built target slam_gmapping
+[39.690s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/slam_gmapping -- -j8 -l8
+[39.693s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/slam_gmapping
+[39.708s] -- Install configuration: "Release"
+[39.709s] -- Execute custom install script
+[39.709s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[39.728s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[39.746s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[39.764s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[39.782s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[39.799s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[39.817s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[39.834s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[39.852s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[39.868s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[39.886s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[39.906s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[39.925s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[39.943s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[39.961s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[39.980s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[39.996s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[40.019s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/slam_gmapping

@@ -1,0 +1,19 @@
+[2.258s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led': PS1=(opencv_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(opencv_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/build --no-deps symlink_data
+[2.985s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.985s]   warnings.warn(
+[3.061s] running develop
+[3.607s] running egg_info
+[3.607s] writing neuronbot2_led.egg-info/PKG-INFO
+[3.608s] writing dependency_links to neuronbot2_led.egg-info/dependency_links.txt
+[3.608s] writing entry points to neuronbot2_led.egg-info/entry_points.txt
+[3.609s] writing requirements to neuronbot2_led.egg-info/requires.txt
+[3.609s] writing top-level names to neuronbot2_led.egg-info/top_level.txt
+[3.612s] reading manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+[3.614s] writing manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+[3.616s] running build_ext
+[3.617s] Creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages/neuronbot2-led.egg-link (link to .)
+[3.618s] Installing led_control script to /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/neuronbot2_led
+[3.619s] 
+[3.619s] Installed /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led
+[3.619s] running symlink_data
+[3.667s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led' returned '0': PS1=(opencv_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(opencv_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/build --no-deps symlink_data

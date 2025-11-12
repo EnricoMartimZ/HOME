@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/serial/ament_cmake_core/serialConfig-version.cmake

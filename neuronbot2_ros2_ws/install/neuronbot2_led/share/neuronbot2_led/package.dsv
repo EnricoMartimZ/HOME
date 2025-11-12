@@ -1,0 +1,9 @@
+source;share/neuronbot2_led/hook/pythonpath.ps1
+source;share/neuronbot2_led/hook/pythonpath.dsv
+source;share/neuronbot2_led/hook/pythonpath.sh
+source;share/neuronbot2_led/hook/ament_prefix_path.ps1
+source;share/neuronbot2_led/hook/ament_prefix_path.dsv
+source;share/neuronbot2_led/hook/ament_prefix_path.sh
+source;../../build/neuronbot2_led/share/neuronbot2_led/hook/pythonpath_develop.ps1
+source;../../build/neuronbot2_led/share/neuronbot2_led/hook/pythonpath_develop.dsv
+source;../../build/neuronbot2_led/share/neuronbot2_led/hook/pythonpath_develop.sh

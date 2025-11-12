@@ -1,0 +1,3 @@
+[console_scripts]
+person_follower_node = person_follower.person_follower_node:main
+

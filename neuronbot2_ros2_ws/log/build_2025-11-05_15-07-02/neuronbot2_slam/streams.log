@@ -1,0 +1,54 @@
+[0.710s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_slam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam
+[0.851s] -- The C compiler identification is GNU 11.4.0
+[1.009s] -- The CXX compiler identification is GNU 11.4.0
+[1.030s] -- Detecting C compiler ABI info
+[1.217s] -- Detecting C compiler ABI info - done
+[1.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.246s] -- Detecting C compile features
+[1.247s] -- Detecting C compile features - done
+[1.256s] -- Detecting CXX compiler ABI info
+[1.476s] -- Detecting CXX compiler ABI info - done
+[1.506s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.506s] -- Detecting CXX compile features
+[1.507s] -- Detecting CXX compile features - done
+[1.514s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.002s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.313s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.787s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.805s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.806s] -- Added test 'lint_cmake' to check CMake code style
+[2.815s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.822s] -- Added test 'xmllint' to check XML markup files
+[2.827s] -- Configuring done
+[2.838s] -- Generating done
+[2.839s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam
+[2.927s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_slam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam
+[2.928s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam -- -j8 -l8
+[3.830s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam -- -j8 -l8
+[3.837s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam
+[3.889s] -- Install configuration: "Release"
+[3.890s] -- Execute custom install script
+[3.890s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/config/cartographer.lua
+[3.933s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/config/cartographer_bag.lua
+[3.989s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/config/slam_toolbox_params.yaml
+[4.041s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/launch/cartographer_launch.py
+[4.113s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/launch/gmapping_launch.py
+[4.161s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/launch/slam_toolbox_launch.py
+[4.213s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/rviz/slam.rviz
+[4.259s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/ament_index/resource_index/package_run_dependencies/neuronbot2_slam
+[4.286s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/ament_index/resource_index/parent_prefix_path/neuronbot2_slam
+[4.318s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/environment/ament_prefix_path.sh
+[4.357s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/environment/ament_prefix_path.dsv
+[4.395s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/environment/path.sh
+[4.408s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/environment/path.dsv
+[4.451s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/local_setup.bash
+[4.491s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/local_setup.sh
+[4.538s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/local_setup.zsh
+[4.580s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/local_setup.dsv
+[4.629s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/package.dsv
+[4.679s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/ament_index/resource_index/packages/neuronbot2_slam
+[4.728s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/cmake/neuronbot2_slamConfig.cmake
+[4.776s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/cmake/neuronbot2_slamConfig-version.cmake
+[4.817s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_slam/share/neuronbot2_slam/package.xml
+[4.855s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_slam

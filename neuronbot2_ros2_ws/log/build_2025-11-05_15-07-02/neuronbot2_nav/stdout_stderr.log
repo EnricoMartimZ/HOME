@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_bringup: 1.1.19 (/opt/ros/humble/share/nav2_bringup/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/bringup_launch.py
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/localization_launch.py
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/navigation_launch.py
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/rviz_view_launch.py
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/slam_launch.py
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/F9.pgm
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/F9.yaml
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/mememan.pgm
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/mememan.yaml
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/phenix.pgm
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/phenix.yaml
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/training_room.pgm
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/training_room.yaml
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/wg.pgm
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/wg.yaml
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/param/neuronbot_params.yaml
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/rviz/nav2.rviz
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/rviz/nav2_default_view.rviz
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/rviz/nav2_namespaced_view.rviz
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/ament_index/resource_index/package_run_dependencies/neuronbot2_nav
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/ament_index/resource_index/parent_prefix_path/neuronbot2_nav
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/ament_prefix_path.sh
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/path.sh
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/path.dsv
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.bash
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.sh
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.zsh
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.dsv
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/package.dsv
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/ament_index/resource_index/packages/neuronbot2_nav
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/cmake/neuronbot2_navConfig.cmake
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/cmake/neuronbot2_navConfig-version.cmake
+-- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/package.xml

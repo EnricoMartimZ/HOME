@@ -1,0 +1,53 @@
+[0.065s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/serial
+[0.753s] -- The C compiler identification is GNU 11.4.0
+[0.753s] -- The CXX compiler identification is GNU 11.4.0
+[0.753s] -- Detecting C compiler ABI info
+[0.754s] -- Detecting C compiler ABI info - done
+[0.755s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.755s] -- Detecting C compile features
+[0.756s] -- Detecting C compile features - done
+[0.761s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.761s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.762s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.222s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.855s] -- Configuring done
+[1.874s] -- Generating done
+[1.874s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/serial
+[1.886s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/serial
+[1.887s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/serial -- -j8 -l8
+[2.058s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.059s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.079s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[5.501s] [100%] [32m[1mLinking CXX shared library libserial.so[0m
+[5.739s] [100%] Built target serial
+[5.775s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/serial -- -j8 -l8
+[5.784s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/serial
+[5.805s] -- Install configuration: "Release"
+[5.807s] -- Execute custom install script
+[5.808s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/environment/library_path.sh
+[5.834s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[5.858s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/lib/libserial.so
+[5.882s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/include/serial/serial.h
+[5.907s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/include/serial/v8stdint.h
+[5.945s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[5.981s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[6.004s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[6.033s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[6.052s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/environment/path.sh
+[6.077s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/environment/path.dsv
+[6.102s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/local_setup.bash
+[6.133s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/local_setup.sh
+[6.181s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/local_setup.zsh
+[6.223s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/local_setup.dsv
+[6.249s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/package.dsv
+[6.289s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[6.344s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.384s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[6.439s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[6.494s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[6.522s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/package.xml
+[6.575s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/serial

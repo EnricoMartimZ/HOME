@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake

@@ -1,0 +1,185 @@
+[0.727s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/rplidar_ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2
+[1.845s] -- The C compiler identification is GNU 11.4.0
+[1.845s] -- The CXX compiler identification is GNU 11.4.0
+[1.845s] -- Detecting C compiler ABI info
+[1.846s] -- Detecting C compiler ABI info - done
+[1.846s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.848s] -- Detecting C compile features
+[1.849s] -- Detecting C compile features - done
+[1.849s] -- Detecting CXX compiler ABI info
+[1.849s] -- Detecting CXX compiler ABI info - done
+[1.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.849s] -- Detecting CXX compile features
+[1.849s] -- Detecting CXX compile features - done
+[1.850s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.118s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.460s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.636s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.656s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.698s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.030s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.055s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.537s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.649s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.889s] -- Looking for pthread.h
+[4.254s] -- Looking for pthread.h - found
+[4.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.641s] -- Found Threads: TRUE  
+[4.929s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.039s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.365s] -- Configuring done
+[5.384s] -- Generating done
+[5.390s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2
+[5.406s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/rplidar_ros -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2
+[5.410s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2 -- -j8 -l8
+[5.509s] [ 14%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[5.511s] [ 28%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/src/rplidar_scan_publisher.cpp.o[0m
+[5.515s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/hal/thread.cpp.o[0m
+[5.515s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[5.515s] [ 71%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[5.528s] [ 85%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/rplidar_driver.cpp.o[0m
+[6.831s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[6.831s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+[6.831s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[6.831s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.832s]    59 |     _u8 data[[01;35m[K0[m[K];
+[6.832s]       |              [01;35m[K^[m[K
+[6.832s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[6.832s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+[6.832s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[6.833s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.833s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[6.833s]       |                  [01;35m[K^[m[K
+[6.898s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[6.898s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[6.898s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[6.898s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.898s]    59 |     _u8 data[[01;35m[K0[m[K];
+[6.901s]       |              [01;35m[K^[m[K
+[6.901s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[6.902s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[6.902s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[6.902s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.902s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[6.902s]       |                  [01;35m[K^[m[K
+[6.905s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[6.905s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[6.905s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[6.906s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[6.906s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.072s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[7.072s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[7.073s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[7.074s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.074s]    59 |     _u8 data[[01;35m[K0[m[K];
+[7.075s]       |              [01;35m[K^[m[K
+[7.075s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[7.075s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[7.076s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[7.076s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.076s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[7.076s]       |                  [01;35m[K^[m[K
+[7.210s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[7.211s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1208:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.211s]  1208 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[7.211s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.211s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1216:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.211s]  1216 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[7.212s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.325s] /home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[7.326s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:2001:64:[m[K   required from here
+[7.326s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1967:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[7.326s]  1967 |     for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[7.326s]       |                         [01;35m[K~~^~~~[m[K
+[7.327s] /home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[7.327s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:2006:67:[m[K   required from here
+[7.327s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1967:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[8.228s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[8.229s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:434:12:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[8.229s]   434 |     [01;35m[K::write(_selfpipe[1], "x", 1)[m[K;
+[8.229s]       |     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.284s] In file included from [01m[K/usr/include/string.h:535[m[K,
+[8.284s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/arch_linux.h:40[m[K,
+[8.284s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:35[m[K:
+[8.285s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[8.285s]     inlined from ‘[01m[Kvirtual bool rp::arch::net::raw_serial::bind(const char*, uint32_t, uint32_t)[m[K’ at [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:91:12[m[K:
+[8.285s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+[8.285s]    95 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len,[m[K
+[8.285s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.286s]    96 | [01;35m[K                                  __glibc_objsize (__dest))[m[K;
+[8.286s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.309s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[12.309s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[12.309s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.310s]    59 |     _u8 data[[01;35m[K0[m[K];
+[12.310s]       |              [01;35m[K^[m[K
+[12.310s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[12.310s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[12.311s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.311s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[12.311s]       |                  [01;35m[K^[m[K
+[12.418s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[12.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[12.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[12.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[12.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[12.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[12.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[12.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[12.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[12.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[12.420s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[12.421s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:[m[K In member function ‘[01m[Kint RPLidarScanPublisher::work_loop()[m[K’:
+[12.421s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:336:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.421s]   336 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"current scan mode: %s, max_distance: %.1f m, Point number: %.1fK , angle_compensate: %d"[m[K,current_scan_mode.scan_mode,
+[12.421s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.421s]   337 |                     current_scan_mode.max_distance, (1000/current_scan_mode.us_per_sample), [32m[Kangle_compensate_multiple[m[K);
+[12.422s]       |                                                                                             [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.422s]       |                                                                                             [32m[K|[m[K
+[12.422s]       |                                                                                             [32m[Ksize_t {aka long unsigned int}[m[K
+[12.422s] [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:336:131:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[12.422s]   336 |             RCLCPP_INFO(this->get_logger(),"current scan mode: %s, max_distance: %.1f m, Point number: %.1fK , angle_compensate: [01;36m[K%d[m[K",current_scan_mode.scan_mode,
+[12.422s]       |                                                                                                                                  [01;36m[K~^[m[K
+[12.423s]       |                                                                                                                                   [01;36m[K|[m[K
+[12.423s]       |                                                                                                                                   [01;36m[Kint[m[K
+[12.423s]       |                                                                                                                                  [32m[K%ld[m[K
+[21.474s] [100%] [32m[1mLinking CXX executable rplidar_scan_publisher[0m
+[21.784s] [100%] Built target rplidar_scan_publisher
+[21.805s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2 -- -j8 -l8
+[21.808s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2
+[21.822s] -- Install configuration: "Release"
+[21.823s] -- Execute custom install script
+[21.824s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_a3_launch.py
+[21.841s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_launch.py
+[21.858s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_launch.py
+[21.875s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_tcp_launch.py
+[21.893s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_a3_launch.py
+[21.910s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_launch.py
+[21.929s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_launch.py
+[21.948s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_tcp_launch.py
+[21.964s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/rviz/rplidar_ros2.rviz
+[21.982s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher
+[21.999s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2
+[22.015s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2
+[22.032s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.sh
+[22.049s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.dsv
+[22.065s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.sh
+[22.081s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.dsv
+[22.097s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.bash
+[22.113s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.sh
+[22.130s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.zsh
+[22.147s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.dsv
+[22.163s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/package.dsv
+[22.180s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/ament_index/resource_index/packages/rplidar_ros2
+[22.196s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.212s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.229s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake
+[22.246s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake
+[22.262s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/rplidar_ros2/share/rplidar_ros2/package.xml
+[22.283s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2

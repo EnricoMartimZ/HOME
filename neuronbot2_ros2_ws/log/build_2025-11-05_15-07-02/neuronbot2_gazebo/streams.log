@@ -1,0 +1,96 @@
+[0.060s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo
+[0.751s] -- The C compiler identification is GNU 11.4.0
+[0.752s] -- The CXX compiler identification is GNU 11.4.0
+[0.752s] -- Detecting C compiler ABI info
+[0.752s] -- Detecting C compiler ABI info - done
+[0.752s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.752s] -- Detecting C compile features
+[0.753s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.753s] -- Detecting CXX compile features
+[0.754s] -- Detecting CXX compile features - done
+[0.754s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.188s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.532s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[1.538s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.683s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.707s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.752s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.084s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.198s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.509s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.526s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.071s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.273s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.524s] -- Looking for pthread.h
+[3.827s] -- Looking for pthread.h - found
+[3.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.222s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.230s] -- Found Threads: TRUE  
+[4.576s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.737s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[4.824s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[4.932s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.937s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.938s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.430s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.747s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.757s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.757s] -- Added test 'lint_cmake' to check CMake code style
+[5.759s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.779s] -- Added test 'xmllint' to check XML markup files
+[5.779s] -- Configuring done
+[5.810s] -- Generating done
+[5.829s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo
+[5.920s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_gazebo -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo
+[5.922s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo -- -j8 -l8
+[6.150s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo -- -j8 -l8
+[6.158s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo
+[6.200s] -- Install configuration: "Release"
+[6.201s] -- Execute custom install script
+[6.203s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//launch/neuronbot2_world.launch.py
+[6.252s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//launch/robot_state_publisher.launch.py
+[6.304s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//launch/spawn_nb2.launch.py
+[6.353s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//worlds/mememan_world.model
+[6.392s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//worlds/phenix_world.model
+[6.436s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/mememan/model.config
+[6.491s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/mememan/model.sdf
+[6.516s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2/meshes/neuronbot2/base_link.stl
+[6.563s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2/meshes/neuronbot2/laser_link.stl
+[6.573s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2/meshes/neuronbot2/wheel_link.stl
+[6.599s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2/model.config
+[6.626s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2/model.sdf
+[6.657s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_front_camera/meshes/neuronbot2/base_link.stl
+[6.687s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_front_camera/meshes/neuronbot2/laser_link.stl
+[6.717s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_front_camera/meshes/neuronbot2/wheel_link.stl
+[6.743s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_front_camera/model.config
+[6.775s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_front_camera/model.sdf
+[6.811s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_top_camera/meshes/neuronbot2/base_link.stl
+[6.841s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_top_camera/meshes/neuronbot2/laser_link.stl
+[6.870s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_top_camera/meshes/neuronbot2/wheel_link.stl
+[6.894s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_top_camera/model.config
+[6.926s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/neuronbot2_w_top_camera/model.sdf
+[6.963s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/phenix/model.config
+[6.986s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo//models/phenix/model.sdf
+[7.022s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/ament_index/resource_index/package_run_dependencies/neuronbot2_gazebo
+[7.048s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/ament_index/resource_index/parent_prefix_path/neuronbot2_gazebo
+[7.076s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/environment/ament_prefix_path.sh
+[7.111s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/environment/ament_prefix_path.dsv
+[7.141s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/environment/path.sh
+[7.167s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/environment/path.dsv
+[7.193s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/local_setup.bash
+[7.226s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/local_setup.sh
+[7.260s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/local_setup.zsh
+[7.293s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/local_setup.dsv
+[7.342s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/package.dsv
+[7.392s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/ament_index/resource_index/packages/neuronbot2_gazebo
+[7.445s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/cmake/neuronbot2_gazeboConfig.cmake
+[7.489s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/cmake/neuronbot2_gazeboConfig-version.cmake
+[7.543s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_gazebo/share/neuronbot2_gazebo/package.xml
+[7.600s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_gazebo

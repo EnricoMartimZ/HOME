@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/key_point2_d__type_support.hpp

@@ -1,0 +1,106 @@
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1208:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1208 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+      |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1216:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1216 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+      |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:2001:64:[m[K   required from here
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1967:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+ 1967 |     for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+      |                         [01;35m[K~~^~~~[m[K
+/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:2006:67:[m[K   required from here
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1967:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:434:12:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  434 |     [01;35m[K::write(_selfpipe[1], "x", 1)[m[K;
+      |     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:535[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/arch_linux.h:40[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:35[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvirtual bool rp::arch::net::raw_serial::bind(const char*, uint32_t, uint32_t)[m[K’ at [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:91:12[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   95 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len,[m[K
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+   96 | [01;35m[K                                  __glibc_objsize (__dest))[m[K;
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:[m[K In member function ‘[01m[Kint RPLidarScanPublisher::work_loop()[m[K’:
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:336:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  336 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"current scan mode: %s, max_distance: %.1f m, Point number: %.1fK , angle_compensate: %d"[m[K,current_scan_mode.scan_mode,
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  337 |                     current_scan_mode.max_distance, (1000/current_scan_mode.us_per_sample), [32m[Kangle_compensate_multiple[m[K);
+      |                                                                                             [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                             [32m[K|[m[K
+      |                                                                                             [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/emzx/neuronbot2_ros2_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:336:131:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  336 |             RCLCPP_INFO(this->get_logger(),"current scan mode: %s, max_distance: %.1f m, Point number: %.1fK , angle_compensate: [01;36m[K%d[m[K",current_scan_mode.scan_mode,
+      |                                                                                                                                  [01;36m[K~^[m[K
+      |                                                                                                                                   [01;36m[K|[m[K
+      |                                                                                                                                   [01;36m[Kint[m[K
+      |                                                                                                                                  [32m[K%ld[m[K

@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/src/yolo_ros/yolo_msgs/msg/Pose2D.msg

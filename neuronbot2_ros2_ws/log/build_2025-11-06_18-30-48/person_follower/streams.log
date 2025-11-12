@@ -1,0 +1,41 @@
+[1.388s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/src/person_follower': PYTHONPATH=/home/emzx/neuronbot2_ros2_ws/build/person_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_follower build --build-base /home/emzx/neuronbot2_ros2_ws/build/person_follower/build install --record /home/emzx/neuronbot2_ros2_ws/build/person_follower/install.log --single-version-externally-managed install_data
+[1.919s] running egg_info
+[1.920s] creating ../../build/person_follower/person_follower.egg-info
+[1.920s] writing ../../build/person_follower/person_follower.egg-info/PKG-INFO
+[1.920s] writing dependency_links to ../../build/person_follower/person_follower.egg-info/dependency_links.txt
+[1.921s] writing entry points to ../../build/person_follower/person_follower.egg-info/entry_points.txt
+[1.921s] writing requirements to ../../build/person_follower/person_follower.egg-info/requires.txt
+[1.921s] writing top-level names to ../../build/person_follower/person_follower.egg-info/top_level.txt
+[1.921s] writing manifest file '../../build/person_follower/person_follower.egg-info/SOURCES.txt'
+[1.924s] reading manifest file '../../build/person_follower/person_follower.egg-info/SOURCES.txt'
+[1.926s] writing manifest file '../../build/person_follower/person_follower.egg-info/SOURCES.txt'
+[1.926s] running build
+[1.926s] running build_py
+[1.926s] creating /home/emzx/neuronbot2_ros2_ws/build/person_follower/build
+[1.926s] creating /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib
+[1.926s] creating /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower
+[1.927s] copying person_follower/__init__.py -> /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower
+[1.927s] copying person_follower/person_follower_node.py -> /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower
+[1.927s] running install
+[1.927s] running install_lib
+[1.928s] creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower
+[1.929s] copying /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower/__init__.py -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower
+[1.929s] copying /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower/person_follower_node.py -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower
+[1.930s] byte-compiling /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower/__init__.py to __init__.cpython-310.pyc
+[1.930s] byte-compiling /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower/person_follower_node.py to person_follower_node.cpython-310.pyc
+[1.933s] running install_data
+[1.933s] creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index
+[1.933s] creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index/resource_index
+[1.933s] creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index/resource_index/packages
+[1.934s] copying resource/person_follower -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index/resource_index/packages
+[1.934s] copying package.xml -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower
+[1.934s] creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/launch
+[1.934s] copying launch/person_follower.launch.py -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/launch
+[1.934s] creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/config
+[1.934s] copying config/person_follower_params.yaml -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/config
+[1.934s] running install_egg_info
+[1.938s] Copying ../../build/person_follower/person_follower.egg-info to /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower-1.0.0-py3.10.egg-info
+[1.939s] running install_scripts
+[1.984s] Installing person_follower_node script to /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/person_follower
+[1.985s] writing list of installed files to '/home/emzx/neuronbot2_ros2_ws/build/person_follower/install.log'
+[2.028s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/src/person_follower' returned '0': PYTHONPATH=/home/emzx/neuronbot2_ros2_ws/build/person_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_follower build --build-base /home/emzx/neuronbot2_ros2_ws/build/person_follower/build install --record /home/emzx/neuronbot2_ros2_ws/build/person_follower/install.log --single-version-externally-managed install_data

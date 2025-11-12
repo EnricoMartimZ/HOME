@@ -1,0 +1,27 @@
+[2.158s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led': PYTHONPATH=/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/build --no-deps symlink_data
+[3.195s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.196s]   warnings.warn(
+[3.293s] running develop
+[4.155s] running egg_info
+[4.156s] creating neuronbot2_led.egg-info
+[4.160s] writing neuronbot2_led.egg-info/PKG-INFO
+[4.165s] writing dependency_links to neuronbot2_led.egg-info/dependency_links.txt
+[4.165s] writing entry points to neuronbot2_led.egg-info/entry_points.txt
+[4.165s] writing requirements to neuronbot2_led.egg-info/requires.txt
+[4.165s] writing top-level names to neuronbot2_led.egg-info/top_level.txt
+[4.165s] writing manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+[4.176s] reading manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+[4.182s] writing manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+[4.194s] running build_ext
+[4.195s] Creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages/neuronbot2-led.egg-link (link to .)
+[4.205s] Installing led_control script to /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/neuronbot2_led
+[4.205s] 
+[4.206s] Installed /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led
+[4.206s] running symlink_data
+[4.207s] creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index
+[4.207s] creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index/resource_index
+[4.207s] creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index/resource_index/packages
+[4.207s] symbolically linking /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/resource/neuronbot2_led -> /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index/resource_index/packages
+[4.207s] symbolically linking /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/package.xml -> /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/neuronbot2_led
+[4.208s] symbolically linking /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/launch/led_control_launch.py -> /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/neuronbot2_led
+[4.372s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led' returned '0': PYTHONPATH=/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/build --no-deps symlink_data

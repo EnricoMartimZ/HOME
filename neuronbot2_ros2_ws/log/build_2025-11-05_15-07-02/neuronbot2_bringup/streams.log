@@ -1,0 +1,85 @@
+[0.028s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.368s] -- The CXX compiler identification is GNU 11.4.0
+[0.389s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.630s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.631s] -- Detecting C compile features
+[0.631s] -- Detecting C compile features - done
+[0.642s] -- Detecting CXX compiler ABI info
+[0.963s] -- Detecting CXX compiler ABI info - done
+[1.015s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.016s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.587s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.788s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.895s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.002s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.014s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.032s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.174s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.262s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.268s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.443s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.635s] -- Looking for pthread.h
+[2.806s] -- Looking for pthread.h - found
+[2.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.003s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.005s] -- Found Threads: TRUE  
+[3.144s] -- Found serial: 1.2.1 (/home/emzx/neuronbot2_ros2_ws/install/serial/share/serial/cmake)
+[3.157s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.216s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.220s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.224s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.629s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.695s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.055s] -- Configuring done
+[4.097s] -- Generating done
+[4.112s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup
+[4.141s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup' returned '0': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup
+[4.146s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup -- -j8 -l8
+[4.280s] [ 50%] [32mBuilding CXX object CMakeFiles/neuronbot2_driver.dir/src/simple_dataframe_master.cpp.o[0m
+[4.281s] [ 50%] [32mBuilding CXX object CMakeFiles/neuronbot2_driver.dir/src/main.cpp.o[0m
+[4.281s] [ 75%] [32mBuilding CXX object CMakeFiles/neuronbot2_driver.dir/src/neuron_serial.cpp.o[0m
+[4.968s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_bringup/include/neuronbot2_bringup/neuron_serial.hpp:31[m[K,
+[4.968s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_bringup/src/neuron_serial.cpp:20[m[K:
+[4.968s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[4.968s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[4.969s]       |  [01;35m[K^~~~~~~[m[K
+[4.969s] In file included from [01m[K/home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_bringup/include/neuronbot2_bringup/neuron_serial.hpp:31[m[K,
+[4.969s]                  from [01m[K/home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_bringup/src/main.cpp:18[m[K:
+[4.969s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[4.969s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[4.969s]       |  [01;35m[K^~~~~~~[m[K
+[32.523s] [100%] [32m[1mLinking CXX executable neuronbot2_driver[0m
+[32.925s] [100%] Built target neuronbot2_driver
+[32.947s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup' returned '0': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup -- -j8 -l8
+[32.950s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup
+[32.963s] -- Install configuration: "Release"
+[32.964s] -- Execute custom install script
+[32.965s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/lib/neuronbot2_bringup/neuronbot2_driver
+[32.982s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/launch/bringup_launch.py
+[32.999s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/cfg/camera.yaml
+[33.015s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/cfg/ekf.yaml
+[33.031s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/cfg/hardware.yaml
+[33.047s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/ament_index/resource_index/package_run_dependencies/neuronbot2_bringup
+[33.063s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/ament_index/resource_index/parent_prefix_path/neuronbot2_bringup
+[33.080s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/environment/ament_prefix_path.sh
+[33.097s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/environment/ament_prefix_path.dsv
+[33.113s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/environment/path.sh
+[33.130s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/environment/path.dsv
+[33.147s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/local_setup.bash
+[33.164s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/local_setup.sh
+[33.180s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/local_setup.zsh
+[33.196s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/local_setup.dsv
+[33.213s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/package.dsv
+[33.229s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/ament_index/resource_index/packages/neuronbot2_bringup
+[33.246s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/cmake/neuronbot2_bringupConfig.cmake
+[33.262s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/cmake/neuronbot2_bringupConfig-version.cmake
+[33.278s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_bringup/share/neuronbot2_bringup/package.xml
+[33.303s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup' returned '0': AMENT_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial:/home/emzx/ros2_ws/install/rtabmap_demos:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/emzx/neuronbot2_ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_bringup

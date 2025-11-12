@@ -1,0 +1,110 @@
+[0.075s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping
+[0.765s] -- The C compiler identification is GNU 11.4.0
+[0.765s] -- The CXX compiler identification is GNU 11.4.0
+[0.765s] -- Detecting C compiler ABI info
+[0.765s] -- Detecting C compiler ABI info - done
+[0.765s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.766s] -- Detecting C compile features
+[0.766s] -- Detecting C compile features - done
+[0.766s] -- Detecting CXX compiler ABI info
+[0.781s] -- Detecting CXX compiler ABI info - done
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.806s] -- Detecting CXX compile features
+[0.806s] -- Detecting CXX compile features - done
+[0.811s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.297s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.491s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.893s] -- Configuring done
+[1.936s] -- Generating done
+[1.951s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping
+[1.964s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping
+[1.970s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping -- -j8 -l8
+[2.143s] [  4%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[2.143s] [  9%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[2.160s] [ 13%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[2.171s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[3.343s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[3.646s] [ 27%] [32m[1mLinking CXX static library libutils.a[0m
+[3.781s] [ 27%] Built target sensor_base
+[3.891s] [ 31%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[3.891s] [ 36%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[3.908s] [ 40%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[3.910s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[3.910s] [ 45%] Built target utils
+[5.034s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[5.204s] [ 50%] Built target sensor_odometry
+[5.440s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[5.556s] [ 54%] Built target sensor_range
+[5.612s] [ 59%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[5.615s] [ 63%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[5.621s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[5.621s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[9.186s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[9.302s] [ 77%] Built target scanmatcher
+[9.350s] [ 81%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[9.350s] [ 86%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[9.350s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[9.350s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[13.407s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[13.581s] [100%] Built target gridfastslam
+[13.614s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping -- -j8 -l8
+[13.619s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping
+[13.641s] -- Install configuration: "Release"
+[13.643s] -- Execute custom install script
+[13.644s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[13.671s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[13.697s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib/libsensor_base.a
+[13.723s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.749s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.777s] -- Up-to-date symlink: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.777s] -- Up-to-date symlink: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.778s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[13.806s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib/libsensor_range.a
+[13.832s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/lib/libutils.a
+[13.857s] -- Up-to-date symlink: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.858s] -- Up-to-date symlink: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.858s] -- Up-to-date symlink: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[13.858s] -- Up-to-date symlink: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[13.861s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[13.888s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[13.914s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[13.938s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[13.963s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[13.989s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[14.014s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[14.040s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[14.066s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[14.093s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[14.119s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[14.146s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[14.172s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[14.199s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[14.225s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[14.252s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[14.279s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[14.305s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[14.331s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[14.358s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[14.383s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[14.408s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[14.433s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[14.458s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[14.483s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[14.510s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[14.537s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[14.564s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[14.590s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[14.616s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[14.641s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[14.666s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[14.691s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[14.716s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[14.741s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[14.766s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[14.793s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[14.820s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[14.845s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.870s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[14.896s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[14.922s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[14.955s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/openslam_gmapping

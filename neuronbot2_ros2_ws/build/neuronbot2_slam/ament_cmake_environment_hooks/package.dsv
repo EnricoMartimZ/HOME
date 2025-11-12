@@ -1,0 +1,4 @@
+source;share/neuronbot2_slam/local_setup.bash
+source;share/neuronbot2_slam/local_setup.dsv
+source;share/neuronbot2_slam/local_setup.sh
+source;share/neuronbot2_slam/local_setup.zsh

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating neuronbot2_led.egg-info
+writing neuronbot2_led.egg-info/PKG-INFO
+writing dependency_links to neuronbot2_led.egg-info/dependency_links.txt
+writing entry points to neuronbot2_led.egg-info/entry_points.txt
+writing requirements to neuronbot2_led.egg-info/requires.txt
+writing top-level names to neuronbot2_led.egg-info/top_level.txt
+writing manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+reading manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+writing manifest file 'neuronbot2_led.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/python3.10/site-packages/neuronbot2-led.egg-link (link to .)
+Installing led_control script to /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/lib/neuronbot2_led
+
+Installed /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led
+running symlink_data
+creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index
+creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index/resource_index
+creating /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index/resource_index/packages
+symbolically linking /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/resource/neuronbot2_led -> /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/ament_index/resource_index/packages
+symbolically linking /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/package.xml -> /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/neuronbot2_led
+symbolically linking /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_led/launch/led_control_launch.py -> /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_led/share/neuronbot2_led

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/person_follower/person_follower.egg-info
+writing ../../build/person_follower/person_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/person_follower/person_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/person_follower/person_follower.egg-info/entry_points.txt
+writing requirements to ../../build/person_follower/person_follower.egg-info/requires.txt
+writing top-level names to ../../build/person_follower/person_follower.egg-info/top_level.txt
+writing manifest file '../../build/person_follower/person_follower.egg-info/SOURCES.txt'
+reading manifest file '../../build/person_follower/person_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/person_follower/person_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/emzx/neuronbot2_ros2_ws/build/person_follower/build
+creating /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib
+creating /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower
+copying person_follower/__init__.py -> /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower
+copying person_follower/person_follower_node.py -> /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower
+running install
+running install_lib
+creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower
+copying /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower/__init__.py -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower
+copying /home/emzx/neuronbot2_ros2_ws/build/person_follower/build/lib/person_follower/person_follower_node.py -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower
+byte-compiling /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower/person_follower_node.py to person_follower_node.cpython-310.pyc
+running install_data
+creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index
+creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index/resource_index
+creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index/resource_index/packages
+copying resource/person_follower -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower
+creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/launch
+copying launch/person_follower.launch.py -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/launch
+creating /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/config
+copying config/person_follower_params.yaml -> /home/emzx/neuronbot2_ros2_ws/install/person_follower/share/person_follower/config
+running install_egg_info
+Copying ../../build/person_follower/person_follower.egg-info to /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/python3.10/site-packages/person_follower-1.0.0-py3.10.egg-info
+running install_scripts
+Installing person_follower_node script to /home/emzx/neuronbot2_ros2_ws/install/person_follower/lib/person_follower
+writing list of installed files to '/home/emzx/neuronbot2_ros2_ws/build/person_follower/install.log'

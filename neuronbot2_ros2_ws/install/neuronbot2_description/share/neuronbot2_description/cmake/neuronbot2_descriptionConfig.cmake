@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_description/ament_cmake_core/neuronbot2_descriptionConfig.cmake

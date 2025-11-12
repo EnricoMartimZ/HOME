@@ -1,0 +1,75 @@
+# Parâmetros de configuração para person_follower_node
+
+person_follower:
+  ros__parameters:
+    # Modelo YOLO a usar
+    # Opções: yolov8n.pt (rápido), yolov8s.pt, yolov8m.pt, yolov8l.pt (preciso)
+    yolo_model: "yolov8n.pt"
+    
+    # Limiar de confiança para detecção de pessoa (0.0 - 1.0)
+    # Valores menores: mais sensível, mais falsos positivos
+    # Valores maiores: mais restritivo, pode perder detecções
+    confidence_threshold: 0.5
+    
+    # Tópicos da câmera
+    camera_topic: "/camera/color/image_raw"
+    depth_topic: "/camera/aligned_depth_to_color/image_raw"
+    camera_info_topic: "/camera/color/camera_info"
+    
+    # Distância alvo da pessoa em metros
+    # O robô tentará manter essa distância da pessoa detectada
+    target_distance: 1.5
+    
+    # Intervalo mínimo entre atualizações de navegação (segundos)
+    # Valores menores: mais responsivo mas pode ser errático
+    # Valores maiores: mais suave mas menos responsivo
+    min_detection_interval: 1.0
+
+
+# ============================================
+# Perfis predefinidos - copie para o tópico acima
+# ============================================
+
+# Perfil 1: Alta Performance (GPU recomendado)
+# person_follower:
+#   ros__parameters:
+#     yolo_model: "yolov8l.pt"
+#     confidence_threshold: 0.6
+#     camera_topic: "/camera/color/image_raw"
+#     depth_topic: "/camera/aligned_depth_to_color/image_raw"
+#     camera_info_topic: "/camera/color/camera_info"
+#     target_distance: 1.5
+#     min_detection_interval: 0.5
+
+# Perfil 2: CPU Fraco
+# person_follower:
+#   ros__parameters:
+#     yolo_model: "yolov8n.pt"
+#     confidence_threshold: 0.5
+#     camera_topic: "/camera/color/image_raw"
+#     depth_topic: "/camera/aligned_depth_to_color/image_raw"
+#     camera_info_topic: "/camera/color/camera_info"
+#     target_distance: 1.5
+#     min_detection_interval: 2.0
+
+# Perfil 3: Ambiente Lotado
+# person_follower:
+#   ros__parameters:
+#     yolo_model: "yolov8s.pt"
+#     confidence_threshold: 0.7
+#     camera_topic: "/camera/color/image_raw"
+#     depth_topic: "/camera/aligned_depth_to_color/image_raw"
+#     camera_info_topic: "/camera/color/camera_info"
+#     target_distance: 2.0
+#     min_detection_interval: 1.5
+
+# Perfil 4: Seguimento Próximo
+# person_follower:
+#   ros__parameters:
+#     yolo_model: "yolov8n.pt"
+#     confidence_threshold: 0.45
+#     camera_topic: "/camera/color/image_raw"
+#     depth_topic: "/camera/aligned_depth_to_color/image_raw"
+#     camera_info_topic: "/camera/color/camera_info"
+#     target_distance: 1.0
+#     min_detection_interval: 0.8

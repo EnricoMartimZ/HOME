@@ -1,0 +1,67 @@
+[0.710s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_nav -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav
+[0.855s] -- The C compiler identification is GNU 11.4.0
+[1.017s] -- The CXX compiler identification is GNU 11.4.0
+[1.041s] -- Detecting C compiler ABI info
+[1.244s] -- Detecting C compiler ABI info - done
+[1.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.276s] -- Detecting C compile features
+[1.279s] -- Detecting C compile features - done
+[1.287s] -- Detecting CXX compiler ABI info
+[1.521s] -- Detecting CXX compiler ABI info - done
+[1.543s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.544s] -- Detecting CXX compile features
+[1.546s] -- Detecting CXX compile features - done
+[1.553s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.010s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.276s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.490s] -- Found nav2_bringup: 1.1.19 (/opt/ros/humble/share/nav2_bringup/cmake)
+[2.496s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.173s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.182s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.186s] -- Added test 'lint_cmake' to check CMake code style
+[3.188s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.192s] -- Added test 'xmllint' to check XML markup files
+[3.198s] -- Configuring done
+[3.207s] -- Generating done
+[3.212s] -- Build files have been written to: /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav
+[3.231s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake /home/emzx/neuronbot2_ros2_ws/src/neuronbot2/neuronbot2_nav -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav
+[3.234s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav -- -j8 -l8
+[3.861s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav -- -j8 -l8
+[3.863s] Invoking command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav
+[4.358s] -- Install configuration: "Release"
+[4.358s] -- Execute custom install script
+[4.359s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/bringup_launch.py
+[4.359s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/localization_launch.py
+[4.359s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/navigation_launch.py
+[4.359s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/rviz_view_launch.py
+[4.359s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/launch/slam_launch.py
+[4.359s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/F9.pgm
+[4.360s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/F9.yaml
+[4.360s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/mememan.pgm
+[4.360s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/mememan.yaml
+[4.381s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/phenix.pgm
+[4.424s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/phenix.yaml
+[4.451s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/training_room.pgm
+[4.476s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/training_room.yaml
+[4.502s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/wg.pgm
+[4.528s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/map/wg.yaml
+[4.563s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/param/neuronbot_params.yaml
+[4.589s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/rviz/nav2.rviz
+[4.614s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/rviz/nav2_default_view.rviz
+[4.642s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/rviz/nav2_namespaced_view.rviz
+[4.669s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/ament_index/resource_index/package_run_dependencies/neuronbot2_nav
+[4.695s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/ament_index/resource_index/parent_prefix_path/neuronbot2_nav
+[4.723s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/ament_prefix_path.sh
+[4.749s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/ament_prefix_path.dsv
+[4.782s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/path.sh
+[4.819s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/environment/path.dsv
+[4.852s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.bash
+[4.877s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.sh
+[4.900s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.zsh
+[4.936s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/local_setup.dsv
+[4.951s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/package.dsv
+[4.980s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/ament_index/resource_index/packages/neuronbot2_nav
+[5.005s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/cmake/neuronbot2_navConfig.cmake
+[5.035s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/cmake/neuronbot2_navConfig-version.cmake
+[5.060s] -- Symlinking: /home/emzx/neuronbot2_ros2_ws/install/neuronbot2_nav/share/neuronbot2_nav/package.xml
+[5.090s] Invoked command in '/home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emzx/ros2_ws/install/rtabmap_python:/home/emzx/ros2_ws/install/follow_human:/home/emzx/ros2_ws/install/box_follower_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emzx/neuronbot2_ros2_ws/build/neuronbot2_nav

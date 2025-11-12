@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/yolo_msgs/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c

@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/rplidar_ros2/ament_cmake_core/rplidar_ros2Config.cmake

@@ -1,0 +1,1 @@
+/home/emzx/neuronbot2_ros2_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp

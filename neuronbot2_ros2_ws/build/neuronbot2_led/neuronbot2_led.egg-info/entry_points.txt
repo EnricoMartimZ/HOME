@@ -1,0 +1,3 @@
+[console_scripts]
+led_control = neuronbot2_led.led_control:main
+
