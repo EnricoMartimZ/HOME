@@ -1,4 +1,3 @@
-# scripts/face_recognition_webcam.py
 import cv2
 import numpy as np
 from pathlib import Path
