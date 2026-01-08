@@ -71,8 +71,9 @@ def record_text():
         return None
 
 def output_text(text):
-    chat_history.append({"role": "user", "content": text})
-    client = Groq(api_key='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')
+    chat_history.append({"role": "user", "content": text}
+        #coloque sua chave da api aqui
+        client = Groq(api_key=)
     completion = client.chat.completions.create(
         model="meta-llama/llama-4-scout-17b-16e-instruct",
         messages=chat_history,
